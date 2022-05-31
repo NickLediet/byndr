@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  byndr-frontend:
+    build:
+      context: ./byndr-frontend
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./byndr-frontend:/usr/src/app
