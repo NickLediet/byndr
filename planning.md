@@ -4,6 +4,17 @@ MISSION/VP:
 * Providing collection managment tools and data insights for many card games. 
 * Secondary goal of serving as a financial history source by aggregating many different price sources for many different TCGs like if they were a security
 
+## Application Stack
+* Apps
+    * collection-manager (Nuxt.js frontend)
+    * collection-service-api (Nest.js REST API)
+    * auth-service-api (Nest.js REST API)
+* Libs
+    * CLI
+    * Types
+    * Components
+    * Utilities
+
 ## Setup of Mono repo
 - [ ] Watch some intro to lerna or nix videos (any mono repo tool)
 - [ ] Setup a lerna hello world with the following packages/app
@@ -12,6 +23,7 @@ MISSION/VP:
 - [ ] Migrate the `tcg-collection-tools` repo into a mono repo in this project (collection-service)
 - [ ] Migrate the `tcg-collection-tools-frontend` repo into this mono repo (frontend)
 - [ ] Add unit tests
+- [ ] Convert `mono-repo-research-notes.md` to documentation in a `README.md`
 - [ ] Archive those projects from GitHub (after merging feature)
 
 ## Add collection feature
