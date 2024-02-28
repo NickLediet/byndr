@@ -5,7 +5,11 @@
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "types": ["vite/client", "vitest"]
+    "types": ["vite/client", "vitest"],
+    "paths": {
+      "@byndr/ui": ["libs/ui/src/index.ts"],
+      "@byndr/ui/*": ["libs/ui/src/*"]
+    }
   },
   "files": [],
   "include": [],
