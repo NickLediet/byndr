@@ -9,7 +9,7 @@
     "cssVariables": true
   },
   "aliases": {
-    "components": "libs/ui/src/lib/components",
-    "utils": "libs/ui/src/lib/utils"
+    "components": "libs/ui/src/components",
+    "utils": "libs/ui/src/utils"
   }
 }
