@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@byndr/components": ["libs/components/src/index.ts"],
       "@byndr/scryfall-client": ["libs/scryfall-client/src/index.ts"]
     }
   },
