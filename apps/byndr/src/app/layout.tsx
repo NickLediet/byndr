@@ -1,4 +1,5 @@
 import './global.css';
+import { AppHeader } from '@byndr/ui';
 
 export const metadata = {
   title: 'Welcome to byndr',
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AppHeader></AppHeader>
+        {children}
+      </body>
     </html>
   );
 }

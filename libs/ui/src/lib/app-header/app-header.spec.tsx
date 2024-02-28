@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Ui from './ui';
+import AppHeader from './app-header';
 
-describe('Ui', () => {
+describe('AppHeader', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Ui />);
+    const { baseElement } = render(<AppHeader />);
     expect(baseElement).toBeTruthy();
   });
 });
