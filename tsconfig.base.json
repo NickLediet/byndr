@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@byndr/components": ["libs/components/src/index.ts"],
-      "@byndr/scryfall-client": ["libs/scryfall-client/src/index.ts"]
+      "@byndr/scryfall-client": ["libs/scryfall-client/src/index.ts"],
+      "@byndr/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
