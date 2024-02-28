@@ -1,0 +1,7 @@
+{
+  "name": "byndr-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/byndr-e2e/src",
+  "targets": {},
+  "implicitDependencies": ["byndr"]
+}
