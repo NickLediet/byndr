@@ -9,7 +9,7 @@
     "cssVariables": true
   },
   "aliases": {
-    "components": "@byndr/ui/components",
-    "utils": "@byndr/ui/utils"
+    "components": "libs/ui/src/lib/components",
+    "utils": "libs/ui/src/lib/utils"
   }
 }
