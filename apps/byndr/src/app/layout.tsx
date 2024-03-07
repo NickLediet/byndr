@@ -1,4 +1,5 @@
 import './global.css';
+import { Header as AppHeader } from './components';
 
 export const metadata = {
   title: 'Welcome to byndr',
@@ -6,14 +7,21 @@ export const metadata = {
 };
 
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body>
-        {children}
+        <div className="w-full">
+          <AppHeader />
+          <main
+            style={{ border: '1px solid red' }}
+            className="h-full container max-w-6xl mx-auto my-10 flex items-center prose">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
