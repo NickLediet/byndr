@@ -17,7 +17,7 @@ export default function RootLayout({
         <div className="w-full">
           <AppHeader />
           <main
-            className="h-full container max-w-6xl mx-auto my-10 flex items-center prose">
+            className="h-full container max-w-6xl mx-auto my-10 flex flex-col prose">
             {children}
           </main>
         </div>
