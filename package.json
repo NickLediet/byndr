@@ -11,7 +11,8 @@
     "db:start": "docker-compose up -d byndr_db --build --remove-orphans",
     "db:migrate": "npm run dk -- migrate",
     "db:migrate:generate": "npm run dk -- generate",
-    "db:client": "npm run dk -- studio"
+    "db:client": "npm run dk -- studio",
+    "db:client:kill": "kill -9 $(ps a | grep -E \"\\d\\s(npm run .+(client|studio)|node.+drizzle-kit)\" | awk '{ print $1 }')"
   },
   "private": true,
   "dependencies": {
