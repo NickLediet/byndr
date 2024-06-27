@@ -7,6 +7,16 @@ program
   .description('Import tools for Byndr')
   .version('0.0.1')
 
+program.command('list:create')
+  .description('Create a new list in Byndr')
+  .requiredOption('-n, --name <name>', 'Name of the list')
+  .requiredOption('-s, --slug <slug>', 'Slug for the list to be used as an unique identifier')
+  .option('-i, --include-in-collection', 'Include the list in the user\'s collection')
+  .action((options) => {
+    console.log('Creating list...')
+    console.log('Options:', options)
+  })
+
 program.command('import')
   .description('Import data into Byndr')
   .arguments('<sources...>')
