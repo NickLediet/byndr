@@ -42,3 +42,9 @@ Thumbs.db
 
 # Next.js
 .next
+
+# Database volume for postgres container
+data/*
+
+# Config files
+.env
