@@ -1,0 +1,8 @@
+{
+  "name": "@byndr/db-migrations",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/db/migrations/src",
+  "projectType": "library",
+  "targets": {},
+  "tags": []
+}

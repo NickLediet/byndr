@@ -1,10 +1,8 @@
 import { $, fs } from 'zx'
-import * as dotenv from 'dotenv'
 import { createDatabaseClient } from '../../../libs/db/client/src/lib/client'
 import { sql } from 'drizzle-orm'
 
 // Bind env vars to process.env
-dotenv.config()
 const currentWorkingDirectory = (await $`basename $(pwd)`).stdout.trim()
 if ( currentWorkingDirectory !== 'byndr' ) {
     console.log(currentWorkingDirectory)

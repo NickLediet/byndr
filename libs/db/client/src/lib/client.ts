@@ -3,15 +3,21 @@ import postgres from 'postgres'
 import { drizzle } from 'drizzle-orm/postgres-js'
 
 dotenv.config()
-const { POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB } = process.env
+const { 
+  POSTGRES_USER,
+  POSTGRES_PASSWORD, 
+  POSTGRES_DB,
+  POSTGRES_HOST,
+  POSTGRES_PORT
+} = process.env
 
 export function createDatabaseClient() {
   const pgClient = postgres({
     user: POSTGRES_USER,
-    host: 'localhost',
     database: POSTGRES_DB,
     password: POSTGRES_PASSWORD,
-    port: 5432,
+    host: POSTGRES_HOST,
+    port: POSTGRES_PORT
   })
 
   return {

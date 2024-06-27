@@ -44,3 +44,7 @@ Thumbs.db
 .next
 
 # Database volume for postgres container
+data/*
+
+# Config files
+.env

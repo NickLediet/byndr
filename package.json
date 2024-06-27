@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ts-script": "node --import @swc-node/register/esm-register --env-file=.env",
+    "dk": "drizzle-kit --config ./libs/db/migrations/drizzle.config.ts",
     "dev": "npm run dev:byndr",
     "dev:byndr": "nx start byndr",
     "dev:api": "nx serve api-byndr",
     "serve:byndr": "nx start byndr",
     "db:start": "docker-compose up -d byndr_db --build --remove-orphans",
-    "db:migrate": "npm run ts-script -- ./tools/scripts/db/migrate.ts"
+    "db:migrate": "npm run dk -- migrate",
+    "db:migrate:generate": "npm run dk -- generate",
+    "db:client": "npm run dk -- studio"
   },
   "private": true,
   "dependencies": {
