@@ -1,0 +1,8 @@
+
+CREATE TABLE lists (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    include_in_collection BOOLEAN DEFAULT FALSE,
+    slug VARCHAR(255) UNIQUE NOT NULL
+);
