@@ -1,18 +1,11 @@
-import * as dotenv from 'dotenv'
-import * as postgres from 'postgres'
-import { drizzle } from 'drizzle-orm/postgres-js'
+import { pgTable, serial, varchar, boolean } from "drizzle-orm/pg-core";
 
-dotenv.config()
-const { POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB } = process.env
+export const lists = pgTable('lists', {
+  id: serial('id').primaryKey(),
+  name: varchar('name', { length: 255 }),
+  includeInCollection: boolean('include_in_collection').default(false),
+  slug: varchar('slug', { length: 255 }).unique(),
+})
 
-export function createDatabaseClient() {
-  const pgClient = postgres({
-    user: POSTGRES_USER,
-    host: 'localhost',
-    database: POSTGRES_DB,
-    password: POSTGRES_PASSWORD,
-    port: 5432,
-  })
-
-  return drizzle(pgClient)
-}
+export type List = typeof lists.$inferSelect
+export type NewList = typeof lists.$inferInsert
