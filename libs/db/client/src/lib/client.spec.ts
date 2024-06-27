@@ -1,4 +1,4 @@
-import { client } from './client';
+import { createDatabaseClient } from './client';
 
 describe('client', () => {
   it('should work', () => {

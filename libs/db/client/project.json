@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "@byndr/db-client",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/db/client/src",
   "projectType": "library",
