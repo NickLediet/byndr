@@ -1,6 +1,18 @@
-# client
+# @byndr/db-client
 
-This library was generated with [Nx](https://nx.dev).
+A repository for managing postgress client for drizzle orm.  This library is used as the primary was to interact with the postgres database.
+
+## Usage
+```typescript
+import { createDatabaseConnection } from '@byndr/db-client'
+
+// Fetch Drizzle instance and postgres client close handler
+const { db, closeConnection } = createDatabaseClient()
+// Run some drizzle queries on "db" ...
+
+// Cleanup the connection
+closeConnection()
+```
 
 ## Building
 
