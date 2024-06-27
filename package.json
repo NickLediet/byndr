@@ -11,7 +11,6 @@
     "db:start": "docker-compose up -d byndr_db --build --remove-orphans",
     "db:migrate": "npm run ts-script -- ./tools/scripts/db/migrate.ts"
   },
-  "type": "module",
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
