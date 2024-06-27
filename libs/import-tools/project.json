@@ -1,0 +1,19 @@
+{
+  "name": "@byndr/import-tools",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/import-tools/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/import-tools",
+        "main": "libs/import-tools/src/index.ts",
+        "tsConfig": "libs/import-tools/tsconfig.lib.json",
+        "assets": ["libs/import-tools/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

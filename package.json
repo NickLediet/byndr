@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "dk": "drizzle-kit --config ./libs/db/migrations/drizzle.config.ts",
+    "byndr": "node ./dist/libs/import-tools/src/index.js",
     "dev": "npm run dev:byndr",
     "dev:byndr": "nx start byndr",
     "dev:api": "nx serve api-byndr",
@@ -25,6 +26,7 @@
     "axios": "^1.6.8",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "commander": "^12.1.0",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.31.2",
     "next": "14.0.4",
