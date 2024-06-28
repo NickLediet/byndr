@@ -1,0 +1,347 @@
+Quantity,Name,Simple Name,Set,Card Number,Set Code,Printing,Condition,Language,Rarity,Product ID,SKU
+1,Distinguished Conjurer,Distinguished Conjurer,Jumpstart 2022,4,J22,Normal,Near Mint,English,Uncommon,455231,6751065
+1,Giant Killer (Showcase),Giant Killer,Throne of Eldraine,275,ELD,Foil,Near Mint,English,Rare,198829,4187913
+2,Keeper of the Accord,Keeper of the Accord,Commander Legends,27,CMR,Normal,Near Mint,English,Rare,221361,4536460
+1,Indestructibility,Indestructibility,Magic 2014 (M14),23,M14,Foil,Near Mint,English,Rare,69948,1125349
+1,Armored Skyhunter,Armored Skyhunter,Commander Legends,11,CMR,Foil,Near Mint,English,Rare,226929,4650543
+1,Armored Skyhunter,Armored Skyhunter,Commander Legends,11,CMR,Normal,Near Mint,English,Rare,226929,4650538
+1,Ghostly Prison,Ghostly Prison,Planechase Anthology,7,PCA,Normal,Near Mint,English,Uncommon,125430,3252185
+1,Ghostly Prison,Ghostly Prison,Commander 2019,64,C19,Normal,Near Mint,English,Uncommon,196569,4155628
+1,Ghostly Prison,Ghostly Prison,Commander 2016,66,C16,Normal,Near Mint,English,Uncommon,124518,3246524
+2,On Thin Ice,On Thin Ice,Modern Horizons,20,MH1,Normal,Near Mint,English,Rare,191140,4064771
+2,Soulfire Grand Master,Soulfire Grand Master,Fate Reforged,27,FRF,Normal,Near Mint,English,Mythic,95256,1277547
+1,Cosmic Intervention,Cosmic Intervention,Commander: Kaldheim,3,KHC,Normal,Near Mint,English,Rare,230954,4742297
+2,Charming Prince,Charming Prince,Throne of Eldraine,8,ELD,Normal,Near Mint,English,Rare,198860,4188820
+2,"Light-Paws, Emperor's Voice (Showcase)","Light-Paws, Emperor's Voice",Kamigawa: Neon Dynasty,367,NEO,Normal,Near Mint,English,Rare,262459,5394039
+1,"Light-Paws, Emperor's Voice (Extended Art)","Light-Paws, Emperor's Voice",Kamigawa: Neon Dynasty,439,NEO,Foil,Near Mint,English,Rare,262811,5417513
+2,"Light-Paws, Emperor's Voice (Extended Art)","Light-Paws, Emperor's Voice",Kamigawa: Neon Dynasty,439,NEO,Normal,Near Mint,English,Rare,262811,5417508
+1,"Light-Paws, Emperor's Voice","Light-Paws, Emperor's Voice",Kamigawa: Neon Dynasty,25,NEO,Foil,Near Mint,English,Rare,262458,5393934
+1,Forge Anew,Forge Anew,Universes Beyond: The Lord of the Rings: Tales of Middle-earth,17,LTR,Normal,Near Mint,English,Rare,498525,7178157
+2,Felidar Retreat (Showcase),Felidar Retreat,Zendikar Rising,292,ZNR,Normal,Near Mint,English,Rare,222140,4571907
+1,Angel's Grace,Angel's Grace,Time Spiral: Remastered,4,TSR,Normal,Near Mint,English,Rare,233724,4794104
+1,Spirit of the Labyrinth,Spirit of the Labyrinth,Born of the Gods,27,BNG,Normal,Near Mint,English,Rare,78851,1164521
+1,Spirit of the Labyrinth,Spirit of the Labyrinth,The List Reprints,BNG-27,LIST,Normal,Near Mint,English,Rare,262937,5423738
+1,Catastrophe,Catastrophe,The List Reprints,USG-6,LIST,Normal,Near Mint,English,Rare,454124,6734273
+1,Surge of Salvation,Surge of Salvation,March of the Machine,41,MOM,Normal,Near Mint,English,Uncommon,490631,7058362
+1,Knight-Captain of Eos,Knight-Captain of Eos,The List Reprints,ALA-17,LIST,Normal,Near Mint,English,Rare,498628,7182876
+1,Felidar Sovereign,Felidar Sovereign,The List Reprints,BFZ-26,LIST,Normal,Near Mint,English,Rare,203086,4267798
+1,Semester's End (Extended Art),Semester's End,Strixhaven: School of Mages,292,STX,Normal,Near Mint,English,Rare,235564,4850327
+2,Finale of Glory,Finale of Glory,War of the Spark,12,WAR,Normal,Near Mint,English,Mythic,188703,4005790
+1,Wrath of God,Wrath of God,Dominaria Remastered,37,DMR,Normal,Near Mint,English,Rare,457674,6809546
+1,Sylvia Brightspear,Sylvia Brightspear,Battlebond,10,BBD,Normal,Near Mint,English,Rare,167799,3749819
+1,Winds of Abandon,Winds of Abandon,Modern Horizons,37,MH1,Normal,Near Mint,English,Rare,190986,4058190
+2,Swords to Plowshares,Swords to Plowshares,Battlebond,110,BBD,Normal,Near Mint,English,Uncommon,167782,3749668
+1,Swords to Plowshares,Swords to Plowshares,Conspiracy,84,CNS,Normal,Near Mint,English,Uncommon,83247,1188225
+1,Blazing Archon,Blazing Archon,Commander 2016,58,C16,Normal,Near Mint,English,Rare,124406,3245964
+1,Shielded by Faith,Shielded by Faith,Signature Spellbook: Gideon,5,SS2,Normal,Near Mint,English,Rare,188995,4007463
+5,Ephemerate,Ephemerate,Modern Horizons,7,MH1,Normal,Near Mint,English,Common,191568,4070050
+1,Hada Freeblade,Hada Freeblade,Worldwake,7,WWK,Foil,Near Mint,English,Uncommon,34376,382865
+1,Archon of Emeria,Archon of Emeria,Zendikar Rising,4,ZNR,Normal,Near Mint,English,Rare,221969,4557207
+1,Preeminent Captain,Preeminent Captain,Magic 2015 (M15),25,M15,Foil,Near Mint,English,Rare,91093,1229026
+1,Eerie Interlude,Eerie Interlude,Commander: Kaldheim,22,KHC,Normal,Near Mint,English,Rare,231218,4745671
+1,Avacyn's Memorial,Avacyn's Memorial,Commander: Innistrad: Midnight Hunt,31,MIC,Normal,Near Mint,English,Mythic,247842,5159006
+1,Monastery Mentor,Monastery Mentor,Fate Reforged,20,FRF,Normal,Near Mint,English,Mythic,95274,1277678
+1,Monastery Mentor (Extended Art),Monastery Mentor,March of the Machine,347,MOM,Normal,Near Mint,English,Mythic,490442,7048641
+1,Together Forever,Together Forever,Battlebond,32,BBD,Foil,Near Mint,English,Rare,167806,3749894
+1,Balance,Balance,Revised Edition,3,3ED,Normal,Near Mint,English,Rare,1340,15481
+1,Weathered Wayfarer,Weathered Wayfarer,Double Masters 2022,34,2X2,Normal,Near Mint,English,Rare,276255,5688443
+1,Sanctifier en-Vec (Extended Art),Sanctifier en-Vec,Modern Horizons 2,444,MH2,Normal,Near Mint,English,Rare,240297,4996425
+1,Archangel Elspeth,Archangel Elspeth,March of the Machine,6,MOM,Normal,Near Mint,English,Mythic,490443,7048691
+1,The Eternal Wanderer,The Eternal Wanderer,Phyrexia: All Will Be One,11,ONE,Foil,Near Mint,English,Rare,478244,6928405
+1,Serra's Emissary (Showcase),Serra's Emissary,Modern Horizons 2,333,MH2,Normal,Near Mint,English,Mythic,239616,4958724
+2,Serra's Emissary,Serra's Emissary,Modern Horizons 2,30,MH2,Normal,Near Mint,English,Mythic,239614,4958584
+1,Archetype of Courage,Archetype of Courage,Born of the Gods,4,BNG,Normal,Near Mint,English,Uncommon,78841,1164421
+1,"Akroma, Angel of Wrath","Akroma, Angel of Wrath",Masters 25,2,A25,Normal,Near Mint,English,Mythic,161556,3609627
+1,Aegis of the Gods,Aegis of the Gods,Journey Into Nyx,1,JOU,Normal,Near Mint,English,Rare,82245,1182976
+1,Radiant Solar (Extended Art),Radiant Solar,Commander: Adventures in the Forgotten Realms,278,AFC,Normal,Near Mint,English,Rare,244212,5115799
+1,Brave the Sands,Brave the Sands,Khans of Tarkir,5,KTK,Normal,Near Mint,English,Uncommon,93202,1258037
+4,All That Glitters,All That Glitters,Throne of Eldraine,2,ELD,Normal,Near Mint,English,Uncommon,198548,4179832
+1,Rally the Ancestors,Rally the Ancestors,Fate Reforged,22,FRF,Foil,Near Mint,English,Rare,95371,1278599
+1,Rally the Ancestors,Rally the Ancestors,Prerelease Cards,22s,PRE,Foil,Near Mint,English,Promo,95608,1280116
+1,Sun Titan,Sun Titan,Duel Decks: Heroes vs. Monsters,1,DDL,Foil,Near Mint,English,Mythic,70941,1130985
+1,Gods Willing (JP Alternate Art),Gods Willing,Strixhaven: Mystical Archives,70,STA,Foil,Near Mint,English,Rare,235512,4846972
+1,Voice of the Blessed,Voice of the Blessed,Innistrad: Double Feature,311,DBL,Normal,Near Mint,English,Rare,255418,5331900
+10,Mystic Sanctuary,Mystic Sanctuary,Throne of Eldraine,247,ELD,Normal,Near Mint,English,Common,199417,4208173
+3,Thought Monitor,Thought Monitor,Modern Horizons 2,71,MH2,Normal,Near Mint,English,Rare,240167,4986282
+1,Counterspell,Counterspell,Dominaria Remastered,45,DMR,Normal,Near Mint,English,Common,457501,6805456
+1,Counterspell,Counterspell,Modern Horizons 2,267,MH2,Normal,Near Mint,English,Uncommon,238617,4943502
+1,Counterspell,Counterspell,Signature Spellbook: Jace,4,SS1,Normal,Near Mint,English,Rare,162750,3742864
+1,Counterspell,Counterspell,7th Edition,67,7ED,Normal,Near Mint,English,Common,2860,16951
+2,Counterspell,Counterspell,Masters 25,50,A25,Normal,Near Mint,English,Common,161471,3609036
+1,Ruin Crab (Showcase),Ruin Crab,Zendikar Rising,295,ZNR,Foil,Near Mint,English,Uncommon,221842,4545453
+1,Whir of Invention,Whir of Invention,Aether Revolt,49,AER,Normal,Near Mint,English,Rare,126329,3257840
+1,Imprisoned in the Moon,Imprisoned in the Moon,Eldritch Moon,65,EMN,Normal,Near Mint,English,Rare,120434,3158344
+1,Mulldrifter,Mulldrifter,Time Spiral: Remastered,311,TSR,Normal,Near Mint,English,Special,233745,4794304
+1,Overcharged Amalgam (Extended Art),Overcharged Amalgam,Innistrad: Crimson Vow,363,VOW,Normal,Near Mint,English,Rare,252934,5253574
+1,Stern Scolding,Stern Scolding,Universes Beyond: The Lord of the Rings: Tales of Middle-earth,71,LTR,Foil,Near Mint,English,Uncommon,498684,7184293
+1,Bident of Thassa,Bident of Thassa,Theros,42,THS,Normal,Near Mint,English,Rare,70989,1131268
+1,Bident of Thassa,Bident of Thassa,Masters 25,42,A25,Normal,Near Mint,English,Rare,161433,3608802
+1,Psychic Corrosion,Psychic Corrosion,Core Set 2019,68,M19,Normal,Near Mint,English,Uncommon,169342,3767156
+1,Tinker,Tinker,Urza's Legacy,45,ULG,Normal,Near Mint,English,Uncommon,6400,19896
+1,Mnemonic Deluge,Mnemonic Deluge,Commander Legends,82,CMR,Normal,Near Mint,English,Mythic,226104,4624850
+1,Spectral Deluge,Spectral Deluge,Commander: Kaldheim,7,KHC,Normal,Near Mint,English,Rare,230966,4742510
+1,Eye of the Storm,Eye of the Storm,Ravnica: City of Guilds,48,RAV,Normal,Near Mint,English,Rare,13275,25042
+1,Silvergill Adept,Silvergill Adept,Open House Promos,53,OHP,Foil,Near Mint,English,Promo,155824,3570284
+1,Court of Cunning,Court of Cunning,Commander Legends,63,CMR,Normal,Near Mint,English,Rare,226474,4634245
+1,Followed Footsteps,Followed Footsteps,Ravnica: City of Guilds,51,RAV,Normal,Near Mint,English,Rare,13288,25055
+1,"Babygodzilla, Ruin Reborn - Pollywog Symbiote",Pollywog Symbiote,Ikoria: Lair of Behemoths,372,IKO,Foil,Near Mint,English,Uncommon,212029,4361219
+2,Persistent Petitioners,Persistent Petitioners,Ravnica Allegiance,44,RNA,Normal,Near Mint,English,Common,183310,3947087
+1,Walk the Aeons,Walk the Aeons,Time Spiral: Remastered,98,TSR,Normal,Near Mint,English,Rare,233772,4796132
+1,Hidden Strings,Hidden Strings,Dragon's Maze,12,DGM,Foil,Near Mint,English,Common,67963,1077330
+1,March of Swirling Mist (Extended Art),March of Swirling Mist,Kamigawa: Neon Dynasty,447,NEO,Foil,Near Mint,English,Rare,262835,5419183
+5,Rapid Hybridization,Rapid Hybridization,Gatecrash,44,GTC,Normal,Near Mint,English,Uncommon,67390,1067221
+1,Declaration of Naught,Declaration of Naught,Morningtide,29,MOR,Normal,Near Mint,English,Rare,17968,115700
+1,Rimefeather Owl,Rimefeather Owl,Coldsnap,42,CSP,Normal,Near Mint,English,Rare,14098,25700
+1,Ruthless Technomancer (Extended Art),Ruthless Technomancer,Commander: Kamigawa: Neon Dynasty,56,NEC,Normal,Near Mint,English,Rare,263119,5430891
+1,Ruthless Technomancer,Ruthless Technomancer,Commander: Kamigawa: Neon Dynasty,35,NEC,Normal,Near Mint,English,Rare,262837,5419268
+1,Exhume,Exhume,Urza's Saga,134,USG,Normal,Near Mint,English,Common,6864,20345
+1,"Tourach, Dread Cantor (Retro Frame) (Foil Etched)","Tourach, Dread Cantor",Modern Horizons 2,402,MH2,Foil,Near Mint,English,Mythic,239847,4975226
+1,Profane Tutor,Profane Tutor,Modern Horizons 2,97,MH2,Normal,Near Mint,English,Rare,239403,4952009
+1,Vault of Whispers,Vault of Whispers,Mirrodin,286,MRD,Normal,Near Mint,English,Common,11311,7655
+3,Soul Snuffers,Soul Snuffers,Eventide,45,EVE,Normal,Near Mint,English,Uncommon,27207,182811
+1,Sheoldred's Edict,Sheoldred's Edict,Phyrexia: All Will Be One,108,ONE,Foil,Near Mint,English,Uncommon,478441,6934834
+1,Mastermind's Acquisition,Mastermind's Acquisition,Rivals of Ixalan,77,RIX,Normal,Near Mint,English,Rare,155748,3569574
+3,Dark Deal,Dark Deal,Fate Reforged,66,FRF,Normal,Near Mint,English,Uncommon,95379,1278674
+1,Stitcher's Supplier,Stitcher's Supplier,Core Set 2019,121,M19,Normal,Near Mint,English,Uncommon,169236,3766201
+1,"Gisa, Glorious Resurrector","Gisa, Glorious Resurrector",Innistrad: Double Feature,103,DBL,Normal,Near Mint,English,Rare,255503,5332760
+1,Court of Ambition,Court of Ambition,Commander Legends,114,CMR,Normal,Near Mint,English,Rare,226662,4639751
+1,Unmarked Grave,Unmarked Grave,Modern Horizons 2,106,MH2,Normal,Near Mint,English,Rare,239388,4950619
+1,Champion of the Perished (Extended Art),Champion of the Perished,Innistrad: Midnight Hunt,344,MID,Foil,Near Mint,English,Rare,247943,5164643
+1,Death Baron,Death Baron,Core Set 2019,90,M19,Normal,Near Mint,English,Rare,168696,3762238
+1,Wishclaw Talisman,Wishclaw Talisman,Throne of Eldraine,110,ELD,Normal,Near Mint,English,Rare,198745,4184882
+1,Mirkwood Bats (Borderless),Mirkwood Bats,Universes Beyond: The Lord of the Rings: Tales of Middle-earth,421,LTR,Foil,Near Mint,English,Common,498419,7173145
+1,"Liliana, Waker of the Dead","Liliana, Waker of the Dead",Core Set 2021,108,M21,Normal,Near Mint,English,Mythic,215353,4437405
+1,Oriq Loremage (Extended Art),Oriq Loremage,Strixhaven: School of Mages,304,STX,Normal,Near Mint,English,Rare,236329,4893817
+1,Crux of Fate,Crux of Fate,Fate Reforged,65,FRF,Normal,Near Mint,English,Rare,95037,1275280
+1,Honden of Night's Reach,Honden of Night's Reach,Eternal Masters,91,EMA,Normal,Near Mint,English,Uncommon,118769,3147422
+1,Call of the Ring (Extended Art) (Surge Foil),Call of the Ring,Universes Beyond: The Lord of the Rings: Tales of Middle-earth,766,LTR,Foil,Near Mint,English,Rare,517937,7446341
+1,"Minas Morgul, Dark Fortress (Borderless)","Minas Morgul, Dark Fortress",Commander: The Lord of the Rings: Tales of Middle-earth,514,LTC,Normal,Near Mint,English,Rare,517257,7529658
+1,Dakmor Salvage,Dakmor Salvage,Ultimate Masters,240,UMA,Foil,Near Mint,English,Uncommon,180841,3915052
+1,Apprentice Necromancer,Apprentice Necromancer,Commander 2017,97,C17,Normal,Near Mint,English,Rare,139892,3449646
+1,Damn (Retro Frame) (Foil Etched),Damn,Modern Horizons 2,396,MH2,Foil,Near Mint,English,Rare,240110,4981902
+2,Disciple of the Vault,Disciple of the Vault,Double Masters,86,2XM,Foil,Near Mint,English,Uncommon,218719,4507798
+2,"Syr Konrad, the Grim","Syr Konrad, the Grim",Throne of Eldraine,107,ELD,Normal,Near Mint,English,Uncommon,198407,4177575
+1,"Syr Konrad, the Grim","Syr Konrad, the Grim",Jumpstart 2022,474,J22,Normal,Near Mint,English,Uncommon,455334,6754185
+2,Force of Despair,Force of Despair,Modern Horizons,92,MH1,Normal,Near Mint,English,Rare,190880,4055316
+1,Corrosive Mentor,Corrosive Mentor,Shadowmoor,61,SHM,Normal,Near Mint,English,Uncommon,18593,116775
+1,Relentless Rats,Relentless Rats,Masters 25,105,A25,Foil,Near Mint,English,Common,161447,3608929
+1,Cauldron Familiar,Cauldron Familiar,Throne of Eldraine,81,ELD,Normal,Near Mint,English,Uncommon,198966,4191789
+1,Street Wraith (Borderless),Street Wraith,Dominaria Remastered,429,DMR,Foil,Near Mint,English,Common,463792,6848031
+1,Hypnotic Specter,Hypnotic Specter,Revised Edition,115,3ED,Normal,Near Mint,English,Uncommon,1451,15590
+1,"Tergrid, God of Fright","Tergrid, God of Fright",Kaldheim,112,KHM,Normal,Near Mint,English,Rare,230450,4721854
+1,Archfiend of Depravity,Archfiend of Depravity,Fate Reforged,62,FRF,Normal,Near Mint,English,Rare,95253,1277517
+1,Monastery Swiftspear,Monastery Swiftspear,Time Spiral: Remastered,349,TSR,Normal,Near Mint,English,Special,233938,4808826
+1,Lizard Blades (Showcase),Lizard Blades,Kamigawa: Neon Dynasty,385,NEO,Foil,Near Mint,English,Rare,262385,5388734
+1,Lizard Blades,Lizard Blades,Kamigawa: Neon Dynasty,153,NEO,Foil,Near Mint,English,Rare,262181,5381186
+2,Galvanic Blast,Galvanic Blast,Double Masters,125,2XM,Normal,Near Mint,English,Uncommon,218930,4512269
+1,Decree of Annihilation,Decree of Annihilation,Scourge,85,SCG,Normal,Near Mint,English,Rare,10910,23272
+1,Roiling Vortex (Extended Art),Roiling Vortex,Zendikar Rising,352,ZNR,Normal,Near Mint,English,Rare,221924,4552747
+1,Desperate Ritual,Desperate Ritual,Ultimate Masters,127,UMA,Foil,Near Mint,English,Uncommon,180810,3914485
+4,Dragon's Rage Channeler,Dragon's Rage Channeler,Modern Horizons 2,121,MH2,Normal,Near Mint,English,Uncommon,240055,4980405
+1,Electrodominance,Electrodominance,Ravnica Allegiance,99,RNA,Normal,Near Mint,English,Rare,183060,3937810
+1,Experimental Synthesizer,Experimental Synthesizer,Kamigawa: Neon Dynasty,138,NEO,Foil,Near Mint,English,Common,262794,5415713
+1,Goblin Bombardment,Goblin Bombardment,Commander 2013,110,C13,Normal,Near Mint,English,Uncommon,72129,1139489
+2,Goblin Bombardment,Goblin Bombardment,Modern Horizons 2,279,MH2,Normal,Near Mint,English,Rare,239839,4974346
+1,Blast-Furnace Hellkite (Extended Art),Blast-Furnace Hellkite,Commander: The Brothers' War,59,BRC,Normal,Near Mint,English,Rare,452478,6702341
+1,Gut Shot,Gut Shot,Modern Masters 2015,117,MM2,Normal,Near Mint,English,Common,98817,2879997
+3,Lava Spike,Lava Spike,Ultimate Masters,136,UMA,Normal,Near Mint,English,Uncommon,180812,3914520
+1,Reckless Stormseeker,Reckless Stormseeker,Innistrad: Midnight Hunt,157,MID,Normal,Near Mint,English,Rare,248151,5178225
+1,Burning Inquiry,Burning Inquiry,Magic 2010 (M10),128,M10,Normal,Near Mint,English,Common,32563,310842
+1,Molten Echoes,Molten Echoes,Commander 2020,54,C20,Normal,Near Mint,English,Rare,212149,4370093
+1,Descent into Avernus,Descent into Avernus,Commander Legends: Battle for Baldur's Gate,169,CLB,Foil,Near Mint,English,Rare,272926,5619306
+1,Valakut Exploration (Showcase),Valakut Exploration,Zendikar Rising,303,ZNR,Foil,Near Mint,English,Rare,222020,4561125
+1,Stormbreath Dragon,Stormbreath Dragon,Theros,143,THS,Normal,Near Mint,English,Mythic,71048,1131898
+1,Slith Firewalker (Junior Super Series),Slith Firewalker,Junior Series Promos,10,JSS,Normal,Near Mint,English,Promo,192803,4111280
+1,Red Elemental Blast,Red Elemental Blast,Revised Edition,171,3ED,Normal,Near Mint,English,Common,1537,15670
+2,Robber of the Rich,Robber of the Rich,Throne of Eldraine,138,ELD,Normal,Near Mint,English,Mythic,198777,4186438
+2,Lightning Bolt (Borderless),Lightning Bolt,Double Masters 2022,361,2X2,Foil,Near Mint,English,Uncommon,276485,5696693
+2,Lightning Bolt (Borderless),Lightning Bolt,Double Masters 2022,361,2X2,Normal,Near Mint,English,Uncommon,276485,5696688
+1,Lightning Bolt (Showcase),Lightning Bolt,Commander Legends: Battle for Baldur's Gate,401,CLB,Foil,Near Mint,English,Common,267061,5477729
+1,Lightning Bolt,Lightning Bolt,Commander Legends: Battle for Baldur's Gate,187,CLB,Foil,Near Mint,English,Common,267051,5476669
+1,Lightning Bolt,Lightning Bolt,Jumpstart,342,JMP,Normal,Near Mint,English,Uncommon,216484,4477914
+1,Lightning Bolt,Lightning Bolt,Modern Masters 2015,122,MM2,Normal,Near Mint,English,Uncommon,98503,2878207
+1,Great Furnace,Great Furnace,Mirrodin,282,MRD,Normal,Near Mint,English,Common,11312,7663
+1,"Urabrask, Heretic Praetor","Urabrask, Heretic Praetor",Streets of New Capenna,129,SNC,Normal,Near Mint,English,Mythic,268361,5488726
+1,Possibility Storm,Possibility Storm,Dragon's Maze,34,DGM,Normal,Near Mint,English,Rare,67915,1076775
+1,Beast Whisperer,Beast Whisperer,Guilds of Ravnica,123,GRN,Normal,Near Mint,English,Rare,176426,3847847
+2,Beast Whisperer,Beast Whisperer,Media Promos,123,MEDIA,Foil,Near Mint,English,Promo,195017,4143866
+1,Gilded Goose,Gilded Goose,Throne of Eldraine,160,ELD,Foil,Near Mint,English,Rare,198394,4176240
+2,Colossification (Extended Art),Colossification,Ikoria: Lair of Behemoths,327,IKO,Normal,Near Mint,English,Rare,212178,4371373
+1,Gilded Goose,Gilded Goose,Throne of Eldraine,160,ELD,Normal,Near Mint,English,Rare,198394,4176235
+5,Crashing Footfalls,Crashing Footfalls,Modern Horizons,160,MH1,Normal,Near Mint,English,Rare,191075,4063081
+1,Tempt with Discovery,Tempt with Discovery,Commander 2016,170,C16,Normal,Near Mint,English,Rare,124654,3247209
+2,Pir's Whim,Pir's Whim,Battlebond,73,BBD,Normal,Near Mint,English,Rare,167655,3748912
+1,Hydra's Growth,Hydra's Growth,Jumpstart 2022,89,J22,Normal,Near Mint,English,Uncommon,455357,6754975
+1,"Emblem - Garruk, Unleashed","Emblem - Garruk, Unleashed",Core Set 2021,17,M21,Normal,Near Mint,English,Token,216709,4479804
+1,Hollowhenge Overlord,Hollowhenge Overlord,Commander: Innistrad: Crimson Vow,36,VOC,Normal,Near Mint,English,Rare,253807,5293273
+1,Gyre Sage,Gyre Sage,Gatecrash,123,GTC,Normal,Near Mint,English,Rare,67417,1067452
+1,"Nissa, Voice of Zendikar","Nissa, Voice of Zendikar",Oath of the Gatewatch,138,OGW,Normal,Near Mint,English,Mythic,110797,3042559
+1,Into the North,Into the North,Coldsnap,111,CSP,Normal,Near Mint,English,Common,14055,25657
+1,Tyvar's Stand,Tyvar's Stand,Phyrexia: All Will Be One,190,ONE,Foil,Near Mint,English,Uncommon,478819,6945355
+1,"Jugan, the Rising Star","Jugan, the Rising Star",Champions of Kamigawa,217,CHK,Normal,Near Mint,English,Rare,12045,24104
+1,Bloated Contaminator,Bloated Contaminator,Phyrexia: All Will Be One,159,ONE,Normal,Near Mint,English,Rare,478328,6931743
+1,Reclamation Sage,Reclamation Sage,Time Spiral: Remastered,366,TSR,Normal,Near Mint,English,Special,233967,4811636
+1,Silkguard (Extended Art),Silkguard,Commander: Kamigawa: Neon Dynasty,71,NEC,Normal,Near Mint,English,Rare,263148,5431501
+1,Golgari Grave-Troll,Golgari Grave-Troll,Ultimate Masters,167,UMA,Normal,Near Mint,English,Rare,180969,3917597
+1,Rampant Rejuvenator (Extended Art),Rampant Rejuvenator,Commander: Kamigawa: Neon Dynasty,70,NEC,Normal,Near Mint,English,Rare,263147,5431481
+1,Acidic Slime,Acidic Slime,FNM Promos,6,FNM,Foil,Near Mint,English,Promo,60145,942746
+1,Sylvan Scrying,Sylvan Scrying,FNM Promos,6,FNM,Foil,Near Mint,English,Promo,118778,3147493
+1,Wirewood Symbiote,Wirewood Symbiote,Eternal Masters,192,EMA,Normal,Near Mint,English,Uncommon,118423,3144552
+1,Temur Sabertooth,Temur Sabertooth,Fate Reforged,141,FRF,Normal,Near Mint,English,Uncommon,95316,1278089
+1,Cultivate,Cultivate,Strixhaven: Mystical Archives,51,STA,Normal,Near Mint,English,Uncommon,235273,4881673
+1,Cultivate (JP Alternate Art) (Foil Etched),Cultivate,Strixhaven: Mystical Archives,114,STA,Foil,Near Mint,English,Uncommon,235278,4842491
+1,Rampant Growth (Borderless),Rampant Growth,Double Masters 2022,371,2X2,Normal,Near Mint,English,Common,276333,5691978
+1,Sakura-Tribe Elder,Sakura-Tribe Elder,Archenemy,68,ARC,Normal,Near Mint,English,Common,37216,397255
+1,Sakura-Tribe Elder,Sakura-Tribe Elder,Conspiracy,177,CNS,Normal,Near Mint,English,Common,83304,1188775
+1,The Tarrasque,The Tarrasque,Adventures in the Forgotten Realms,207,AFR,Normal,Near Mint,English,Mythic,243183,5057943
+3,Return of the Wildspeaker,Return of the Wildspeaker,Throne of Eldraine,172,ELD,Normal,Near Mint,English,Rare,199415,4207953
+1,Crop Rotation,Crop Rotation,Double Masters,161,2XM,Normal,Near Mint,English,Uncommon,218444,4503826
+1,Beast Within,Beast Within,Battlebond,190,BBD,Normal,Near Mint,English,Uncommon,167822,3750049
+2,Beast Within,Beast Within,Duel Decks: Heroes vs. Monsters,69,DDL,Normal,Near Mint,English,Uncommon,71074,1132109
+1,Beast Within,Beast Within,Conspiracy: Take the Crown,174,CN2,Normal,Near Mint,English,Uncommon,121783,3194675
+1,Beast Within,Beast Within,Commander 2016,141,C16,Normal,Near Mint,English,Uncommon,124402,3245944
+1,Regrowth,Regrowth,Strixhaven: Mystical Archives,56,STA,Foil,Near Mint,English,Rare,235610,4853742
+1,Eternal Witness,Eternal Witness,Double Masters 2022,145,2X2,Normal,Near Mint,English,Uncommon,276603,5699837
+1,Eternal Witness (Borderless),Eternal Witness,Double Masters 2022,368,2X2,Normal,Near Mint,English,Uncommon,276605,5699888
+1,"Yeva, Nature's Herald","Yeva, Nature's Herald",Magic 2013 (M13),197,M13,Normal,Near Mint,English,Rare,59787,936910
+1,"Surrak, the Hunt Caller","Surrak, the Hunt Caller",Prerelease Cards,210s,PRE,Foil,Near Mint,English,Rare,97038,2828629
+1,Fauna Shaman,Fauna Shaman,The Brothers' War,179,BRO,Normal,Near Mint,English,Rare,452421,6699131
+1,Shared Summons,Shared Summons,Core Set 2020,193,M20,Normal,Near Mint,English,Rare,192788,4110575
+1,Rites of Flourishing,Rites of Flourishing,Commander 2016,163,C16,Normal,Near Mint,English,Rare,124607,3246974
+1,Oath of Druids,Oath of Druids,Commander 2016,159,C16,Normal,Near Mint,English,Rare,124138,3243913
+1,Nature's Lore,Nature's Lore,Dominaria Remastered,170,DMR,Foil,Near Mint,English,Uncommon,457135,6790981
+1,Deputy of Detention,Deputy of Detention,Prerelease Cards,165s,PRE,Foil,Near Mint,English,Rare,183990,3964792
+1,Render Silent,Render Silent,Ravnica Allegiance: Guild Kits,18,GK2,Normal,Near Mint,English,Rare,184808,3971256
+1,Dovin's Veto,Dovin's Veto,War of the Spark,193,WAR,Normal,Near Mint,English,Uncommon,187186,3989952
+1,Dovin's Veto,Dovin's Veto,War of the Spark,193,WAR,Normal,Near Mint,Japanese,Uncommon,187186,4016375
+1,Judge's Familiar,Judge's Familiar,FNM Promos,5,FNM,Foil,Near Mint,English,Promo,70914,1130748
+1,Unsettled Mariner,Unsettled Mariner,Modern Horizons,216,MH1,Normal,Near Mint,English,Rare,191557,4069163
+1,Sovereigns of Lost Alara,Sovereigns of Lost Alara,Ultimate Masters,207,UMA,Normal,Near Mint,English,Rare,180803,3914340
+1,"Brago, King Eternal","Brago, King Eternal",Conspiracy,41,CNS,Normal,Near Mint,English,Rare,82880,1186341
+1,"Brago, King Eternal","Brago, King Eternal",Commander: Kaldheim,82,KHC,Normal,Near Mint,English,Rare,231196,4744571
+1,Drown in the Loch,Drown in the Loch,Throne of Eldraine,188,ELD,Normal,Near Mint,English,Uncommon,199207,4199897
+1,Consuming Aberration,Consuming Aberration,Gatecrash,152,GTC,Foil,Near Mint,English,Rare,67358,1066933
+1,Enter the God-Eternals,Enter the God-Eternals,War of the Spark,196,WAR,Foil,Near Mint,Japanese,Rare,188487,4017530
+1,Baleful Strix (Retro Frame),Baleful Strix,Commander: The Brothers' War,120,BRC,Normal,Near Mint,English,Rare,452238,6688073
+1,Drowned Catacomb,Drowned Catacomb,Universes Beyond: Doctor Who,274,WHO,Normal,Near Mint,English,Rare,519889,7468290
+1,Frost Marsh,Frost Marsh,Coldsnap,146,CSP,Normal,Near Mint,English,Uncommon,14034,25636
+1,Dimir Aqueduct (Borderless),Dimir Aqueduct,Double Masters 2022,404,2X2,Normal,Near Mint,English,Uncommon,276420,5693917
+1,Shipwreck Marsh,Shipwreck Marsh,Universes Beyond: Doctor Who,305,WHO,Normal,Near Mint,English,Rare,519921,7468655
+1,Lightning Skelemental,Lightning Skelemental,Modern Horizons,208,MH1,Normal,Near Mint,English,Rare,190881,4055326
+1,Dreadbore,Dreadbore,Return to Ravnica,157,RTR,Normal,Near Mint,English,Rare,66396,1042535
+1,Pavel Maliki,Pavel Maliki,Legends,248,LEG,Normal,Near Mint,English,Uncommon,3970,17923
+2,Rakdos Carnarium (Borderless),Rakdos Carnarium,Double Masters 2022,410,2X2,Normal,Near Mint,English,Uncommon,276432,5694517
+1,Dragonskull Summit,Dragonskull Summit,Universes Beyond: Doctor Who,272,WHO,Normal,Near Mint,English,Rare,519933,7468860
+1,Haunted Ridge,Haunted Ridge,Universes Beyond: Doctor Who,286,WHO,Normal,Near Mint,English,Rare,519906,7468460
+1,Kaervek the Merciless (Foil Etched),Kaervek the Merciless,Double Masters 2022,512,2X2,Foil,Near Mint,English,Rare,276494,5697063
+1,"Tovolar, Dire Overlord","Tovolar, Dire Overlord",Innistrad: Midnight Hunt,246,MID,Normal,Near Mint,English,Rare,247834,5158246
+2,Rhythm of the Wild,Rhythm of the Wild,Ravnica Allegiance,201,RNA,Normal,Near Mint,English,Uncommon,183219,3944380
+1,Atarka's Command (Foil Etched),Atarka's Command,Double Masters 2022,475,2X2,Foil,Near Mint,English,Rare,276445,5695137
+1,Agatha of the Vile Cauldron (Extended Art),Agatha of the Vile Cauldron,Wilds of Eldraine,360,WOE,Normal,Near Mint,English,Mythic,512486,7362927
+1,Gruul Turf (Borderless),Gruul Turf,Double Masters 2022,407,2X2,Foil,Near Mint,English,Uncommon,276422,5694022
+1,Raging Ravine,Raging Ravine,Ultimate Masters,249,UMA,Normal,Near Mint,English,Rare,179523,3904829
+3,Sterling Grove,Sterling Grove,Modern Horizons 2,293,MH2,Normal,Near Mint,English,Rare,240050,4979855
+1,Horizon Canopy,Horizon Canopy,Universes Beyond: Doctor Who,287,WHO,Normal,Near Mint,English,Rare,520192,7471753
+3,Faeburrow Elder,Faeburrow Elder,Throne of Eldraine,190,ELD,Normal,Near Mint,English,Rare,199026,4196496
+1,Ellivere of the Wild Court (Extended Art),Ellivere of the Wild Court,Commander: Wilds of Eldraine,36,WOC,Normal,Near Mint,English,Mythic,512505,7363882
+1,Tolsimir Wolfblood,Tolsimir Wolfblood,Ravnica: City of Guilds,236,RAV,Normal,Near Mint,English,Rare,13451,25218
+1,Tolsimir Wolfblood,Tolsimir Wolfblood,Guilds of Ravnica: Guild Kits,121,GR1,Normal,Near Mint,English,Rare,176731,3879842
+1,"Yasharn, Implacable Earth (Extended Art)","Yasharn, Implacable Earth",Zendikar Rising,371,ZNR,Normal,Near Mint,English,Rare,222022,4561270
+1,"Trostani, Selesnya's Voice","Trostani, Selesnya's Voice",Return to Ravnica,206,RTR,Normal,Near Mint,English,Mythic,66466,1043350
+1,"Trostani, Selesnya's Voice","Trostani, Selesnya's Voice",Guilds of Ravnica: Guild Kits,102,GR1,Foil,Near Mint,English,Mythic,177195,3879969
+1,Privileged Position (Borderless),Privileged Position,Double Masters 2022,385,2X2,Normal,Near Mint,English,Rare,277258,5714199
+1,Razorverge Thicket (Borderless),Razorverge Thicket,Phyrexia: All Will Be One,373,ONE,Foil,Near Mint,English,Rare,478616,6940794
+1,Overgrown Farmland,Overgrown Farmland,Universes Beyond: Doctor Who,292,WHO,Normal,Near Mint,English,Rare,520193,7471783
+1,"Treebeard, Gracious Host (Showcase Scrolls)","Treebeard, Gracious Host",Commander: The Lord of the Rings: Tales of Middle-earth,483,LTC,Foil,Near Mint,English,Rare,518013,7446901
+2,"Sythis, Harvest's Hand","Sythis, Harvest's Hand",Modern Horizons 2,214,MH2,Foil,Near Mint,English,Rare,240275,4994670
+1,Despark (Foil Etched),Despark,Strixhaven: Mystical Archives,59,STA,Foil,Near Mint,English,Rare,235294,4842817
+1,Vanishing Verse (Extended Art),Vanishing Verse,Strixhaven: School of Mages,354,STX,Normal,Near Mint,English,Rare,235927,4869813
+1,"Kambal, Consul of Allocation","Kambal, Consul of Allocation",Kaladesh,183,KLD,Normal,Near Mint,English,Rare,122729,3201209
+1,Kaya's Wrath,Kaya's Wrath,Ravnica Allegiance,187,RNA,Foil,Near Mint,English,Rare,183178,3940400
+1,"Liesa, Forgotten Archangel","Liesa, Forgotten Archangel",Innistrad: Midnight Hunt,232,MID,Normal,Near Mint,English,Rare,247982,5166881
+1,Fetid Heath,Fetid Heath,Double Masters,316,2XM,Normal,Near Mint,English,Rare,219105,4514590
+1,"Jhoira, Weatherlight Captain","Jhoira, Weatherlight Captain",Dominaria,197,DOM,Normal,Near Mint,English,Mythic,162137,3613639
+1,"Jhoira, Weatherlight Captain","Jhoira, Weatherlight Captain",Double Masters,203,2XM,Normal,Near Mint,English,Rare,218723,4507858
+1,Ionize,Ionize,Guilds of Ravnica,179,GRN,Foil,Near Mint,English,Rare,176422,3847812
+1,Thousand-Year Storm (Borderless),Thousand-Year Storm,Double Masters 2022,390,2X2,Normal,Near Mint,English,Rare,276514,5697913
+1,Stormcarved Coast,Stormcarved Coast,Universes Beyond: Doctor Who,308,WHO,Normal,Near Mint,English,Rare,519301,7459963
+2,Izzet Boilerworks (Borderless),Izzet Boilerworks,Double Masters 2022,408,2X2,Normal,Near Mint,English,Uncommon,276438,5694817
+2,"Garruk, Cursed Huntsman","Garruk, Cursed Huntsman",Throne of Eldraine,191,ELD,Normal,Near Mint,English,Mythic,198500,4179582
+1,"Lathril, Blade of the Elves (Foil Etched)","Lathril, Blade of the Elves",Media Promos,2,MEDIA,Foil,Near Mint,English,Promo,514818,7420576
+1,Putrefy (Foil Etched),Putrefy,Strixhaven: Mystical Archives,63,STA,Foil,Near Mint,English,Rare,235358,4844137
+1,"Willowdusk, Essence Seer (Extended Art)","Willowdusk, Essence Seer",Commander 2021,333,C21,Normal,Near Mint,English,Mythic,235532,4848077
+1,Nissa of Shadowed Boughs,Nissa of Shadowed Boughs,Zendikar Rising,231,ZNR,Foil,Near Mint,English,Mythic,221780,4539972
+1,"Izoni, Thousand-Eyed","Izoni, Thousand-Eyed",Guilds of Ravnica: Guild Kits,50,GR1,Foil,Near Mint,English,Rare,177194,3879964
+1,"Jarad, Golgari Lich Lord","Jarad, Golgari Lich Lord",Guilds of Ravnica: Guild Kits,65,GR1,Normal,Near Mint,English,Mythic,177347,3880577
+1,Temple of Malady (Extended Art),Temple of Malady,Core Set 2021,388,M21,Normal,Near Mint,English,Rare,215596,4452096
+1,Temple of Malady (Extended Art),Temple of Malady,Core Set 2021,388,M21,Foil,Near Mint,English,Rare,215596,4452101
+1,Golgari Rot Farm (Borderless),Golgari Rot Farm,Double Masters 2022,406,2X2,Foil,Near Mint,English,Uncommon,276424,5694122
+1,"Valentin, Dean of the Vein (Extended Art)","Valentin, Dean of the Vein",Strixhaven: School of Mages,333,STX,Normal,Near Mint,English,Rare,235626,4854402
+1,Restless Cottage,Restless Cottage,Wilds of Eldraine,258,WOE,Foil,Near Mint,English,Rare,512205,7357022
+1,Lavabelly Sliver,Lavabelly Sliver,Modern Horizons,207,MH1,Foil,Near Mint,English,Uncommon,190875,4055271
+1,"Risona, Asari Commander (Showcase)","Risona, Asari Commander",Kamigawa: Neon Dynasty,330,NEO,Normal,Near Mint,English,Rare,262855,5420278
+4,Wear // Tear,Wear,Dragon's Maze,135,DGM,Normal,Near Mint,English,Uncommon,67878,1076372
+1,"Nahiri, Forged in Fury","Nahiri, Forged in Fury",March of the Machine: The Aftermath,36,MAT,Normal,Near Mint,English,Mythic,495611,7139877
+1,Battlefield Forge,Battlefield Forge,The Brothers' War,257,BRO,Foil,Near Mint,English,Rare,451477,6669306
+1,Balefire Liege,Balefire Liege,Double Masters 2022,180,2X2,Normal,Near Mint,English,Rare,276913,5705405
+1,Simic Ascendancy,Simic Ascendancy,Ravnica Allegiance,207,RNA,Normal,Near Mint,English,Rare,182121,3925897
+1,Progenitor Mimic,Progenitor Mimic,Double Masters,212,2XM,Normal,Near Mint,English,Rare,218922,4511869
+1,Progenitor Mimic,Progenitor Mimic,Commander 2016,216,C16,Normal,Near Mint,English,Mythic,124595,3246914
+1,Shardless Agent (Borderless),Shardless Agent,Modern Horizons 2,321,MH2,Foil,Near Mint,English,Rare,240290,4995790
+1,"Nissa, Steward of Elements","Nissa, Steward of Elements",Amonkhet,204,AKH,Normal,Near Mint,English,Mythic,130051,3327500
+1,Simic Growth Chamber (Borderless),Simic Growth Chamber,Double Masters 2022,412,2X2,Foil,Near Mint,English,Uncommon,276436,5694722
+1,Waterlogged Grove,Waterlogged Grove,Modern Horizons,249,MH1,Normal,Near Mint,English,Rare,190793,4054089
+1,Dreamroot Cascade,Dreamroot Cascade,Universes Beyond: Doctor Who,273,WHO,Normal,Near Mint,English,Rare,519510,7463183
+1,Gandalf of the Secret Fire (Borderless),Gandalf of the Secret Fire,Commander: The Lord of the Rings: Tales of Middle-earth,507,LTC,Normal,Near Mint,English,Mythic,517245,7529718
+1,Brokers Ascendancy,Brokers Ascendancy,Streets of New Capenna,170,SNC,Foil,Near Mint,English,Rare,265342,5465144
+1,"Isshin, Two Heavens as One (Extended Art)","Isshin, Two Heavens as One",Kamigawa: Neon Dynasty,488,NEO,Normal,Near Mint,English,Rare,262582,5397751
+2,Geyadrone Dihada (Borderless),Geyadrone Dihada,Modern Horizons 2,305,MH2,Normal,Near Mint,English,Mythic,240087,4981443
+1,"Inalla, Archmage Ritualist","Inalla, Archmage Ritualist",Commander 2017,38,C17,Foil,Near Mint,English,Mythic,139846,3449348
+1,Nicol Bolas,Nicol Bolas,Masters 25,209,A25,Normal,Near Mint,English,Rare,161486,3609177
+2,"Nethroi, Apex of Death (Showcase)","Nethroi, Apex of Death",Ikoria: Lair of Behemoths,303,IKO,Normal,Near Mint,English,Mythic,212075,4364209
+1,"Marchesa, the Black Rose","Marchesa, the Black Rose",Double Masters 2022,248,2X2,Normal,Near Mint,English,Rare,276979,5706940
+1,Brokers Ascendancy,Brokers Ascendancy,Streets of New Capenna,170,SNC,Normal,Near Mint,English,Rare,265342,5465139
+1,Horizon Stone (Extended Art),Horizon Stone,Commander Legends,694,CMR,Normal,Near Mint,English,Rare,226743,4641906
+1,Fractured Powerstone,Fractured Powerstone,The List Reprints,PC2-111,LIST,Normal,Near Mint,English,Common,222583,4585340
+1,Lantern of Insight,Lantern of Insight,The List Reprints,5DN-135,LIST,Normal,Near Mint,English,Uncommon,210388,6998778
+1,Worldslayer,Worldslayer,Magic 2012 (M12),222,M12,Normal,Near Mint,English,Rare,47638,474504
+1,Memnite,Memnite,The List Reprints,SOM-174,LIST,Normal,Near Mint,English,Uncommon,210377,4610523
+1,Memnite,Memnite,Scars of Mirrodin,174,SOM,Normal,Near Mint,English,Uncommon,36237,393748
+1,Reality Smasher,Reality Smasher,Oath of the Gatewatch,7,OGW,Normal,Near Mint,English,Rare,110873,3043200
+1,Haywire Mite,Haywire Mite,The Brothers' War,199,BRO,Normal,Near Mint,English,Uncommon,452824,6709380
+1,Rhonas's Monument,Rhonas's Monument,Amonkhet,236,AKH,Normal,Near Mint,English,Uncommon,129752,3325772
+1,Oketra's Monument,Oketra's Monument,Amonkhet,233,AKH,Normal,Near Mint,English,Uncommon,129750,3325752
+1,Whispersilk Cloak,Whispersilk Cloak,Darksteel,160,DST,Normal,Near Mint,English,Common,11597,23673
+1,Skyclave Relic,Skyclave Relic,Zendikar Rising,252,ZNR,Normal,Near Mint,English,Rare,222111,4569217
+6,Talisman of Creativity,Talisman of Creativity,Modern Horizons,231,MH1,Normal,Near Mint,English,Uncommon,191060,4061540
+1,Sol Ring,Sol Ring,Commander 2020,252,C20,Normal,Near Mint,English,Uncommon,212198,4372433
+1,Sol Ring,Sol Ring,Commander: Kaldheim,104,KHC,Normal,Near Mint,English,Uncommon,231261,4747871
+5,Talisman of Hierarchy,Talisman of Hierarchy,Modern Horizons,233,MH1,Normal,Near Mint,English,Uncommon,191058,4061320
+1,Phyrexian Dragon Engine,Phyrexian Dragon Engine,The Brothers' War,163a,BRO,Normal,Near Mint,English,Rare,448706,6646248
+1,Liquimetal Torque,Liquimetal Torque,Modern Horizons 2,228,MH2,Normal,Near Mint,English,Uncommon,239836,4974016
+2,Nettlecyst,Nettlecyst,Modern Horizons 2,231,MH2,Normal,Near Mint,English,Rare,240152,4984842
+1,Platinum Angel,Platinum Angel,The Brothers' War: Retro Frame Artifacts,41,BRR,Normal,Near Mint,English,Mythic,452418,6698891
+2,Ratchet Bomb,Ratchet Bomb,Buy-A-Box Promos,215★,BABP,Foil,Near Mint,English,Promo,71224,1133186
+1,Cursed Totem,Cursed Totem,Modern Horizons 2,295,MH2,Normal,Near Mint,English,Rare,240154,4985062
+1,Colossus of Akros,Colossus of Akros,Theros,214,THS,Normal,Near Mint,English,Rare,71406,1134683
+1,Scion of Draco,Scion of Draco,Modern Horizons 2,234,MH2,Normal,Near Mint,English,Mythic,239830,4973516
+1,Prismatic Geoscope,Prismatic Geoscope,Commander 2016,55,C16,Normal,Near Mint,English,Rare,124004,3242823
+1,Pili-Pala,Pili-Pala,Shadowmoor,258,SHM,Normal,Near Mint,English,Common,18735,116917
+1,Not of This World,Not of This World,The List Reprints,ROE-8,LIST,Foil,Near Mint,English,Uncommon,210349,4346904
+1,Grafdigger's Cage,Grafdigger's Cage,Modern Masters 2017,221,MM3,Normal,Near Mint,English,Rare,128474,3316447
+1,Twinning Staff,Twinning Staff,Commander 2020,70,C20,Normal,Near Mint,English,Rare,212212,4373273
+1,Sword of the Paruns,Sword of the Paruns,Commander 2013,264,C13,Normal,Near Mint,English,Rare,72301,1140349
+1,Citanul Flute,Citanul Flute,10th Edition,315,10E,Normal,Near Mint,English,Rare,15072,4911
+1,Cauldron of Souls,Cauldron of Souls,The List Reprints,CM2-180,LIST,Normal,Near Mint,English,Rare,205915,4282797
+1,Crawlspace,Crawlspace,Dominaria Remastered,217,DMR,Normal,Near Mint,English,Rare,461811,6835416
+1,Moonsilver Spear,Moonsilver Spear,Avacyn Restored,217,AVR,Foil,Near Mint,English,Rare,58188,852219
+1,Blackblade Reforged,Blackblade Reforged,Signature Spellbook: Gideon,8,SS2,Normal,Near Mint,English,Rare,188990,4007413
+1,Temple Bell,Temple Bell,Commander 2016,277,C16,Normal,Near Mint,English,Rare,124652,3247199
+1,Platoon Dispenser (Extended Art),Platoon Dispenser,The Brothers' War,310,BRO,Foil,Near Mint,English,Mythic,452674,6707006
+1,Gemstone Mine,Gemstone Mine,Dominaria Remastered,247,DMR,Foil,Near Mint,English,Rare,463383,6845691
+2,Reliquary Tower,Reliquary Tower,Magic 2013 (M13),227,M13,Normal,Near Mint,English,Uncommon,60043,939117
+1,Reliquary Tower (M19),Reliquary Tower,The List Reprints,M19-254,LIST,Normal,Near Mint,English,Uncommon,202832,4266532
+1,Sanctum of Ugin,Sanctum of Ugin,Battle for Zendikar,242,BFZ,Normal,Near Mint,English,Rare,105304,2955171
+1,Minas Tirith,Minas Tirith,Universes Beyond: The Lord of the Rings: Tales of Middle-earth,256,LTR,Normal,Near Mint,English,Rare,498350,7167805
+1,Ancient Ziggurat,Ancient Ziggurat,The List Reprints,CON-141,LIST,Normal,Near Mint,English,Uncommon,202773,4266232
+1,High Market,High Market,Commander 2015,289,C15,Normal,Near Mint,English,Rare,108145,3006007
