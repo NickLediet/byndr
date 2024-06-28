@@ -1,7 +1,7 @@
 {
-  "name": "import-tools-e2e",
+  "name": "@byndr/import-tools-e2e",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "implicitDependencies": ["import-tools"],
+  "implicitDependencies": ["@byndr/import-tools"],
   "projectType": "application",
   "targets": {
     "e2e": {

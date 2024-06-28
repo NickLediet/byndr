@@ -1,5 +1,5 @@
 {
-  "name": "import-tools",
+  "name": "@byndr/import-tools",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/import-tools/src",
   "projectType": "application",
