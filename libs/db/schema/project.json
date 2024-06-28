@@ -1,5 +1,5 @@
 {
-  "name": "schema",
+  "name": "@byndr/db-schema",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/db/schema/src",
   "projectType": "library",

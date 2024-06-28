@@ -6,6 +6,7 @@
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es2015",
@@ -15,7 +16,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@byndr/components": ["libs/components/src/index.ts"],
       "@byndr/db-client": ["libs/db/client/src/index.ts"],
       "@byndr/db-migrations": ["libs/db/migrations/src/index.ts"],
       "@byndr/db-schema": ["libs/db/schema/src/index.ts"],

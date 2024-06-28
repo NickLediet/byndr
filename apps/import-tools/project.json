@@ -1,0 +1,56 @@
+{
+  "name": "import-tools",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/import-tools/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "platform": "node",
+        "outputPath": "dist/apps/import-tools",
+        "format": ["cjs"],
+        "bundle": false,
+        "main": "apps/import-tools/src/main.ts",
+        "tsConfig": "apps/import-tools/tsconfig.app.json",
+        "assets": ["apps/import-tools/src/assets"],
+        "generatePackageJson": true,
+        "esbuildOptions": {
+          "sourcemap": true,
+          "outExtension": {
+            ".js": ".js"
+          }
+        }
+      },
+      "configurations": {
+        "development": {},
+        "production": {
+          "esbuildOptions": {
+            "sourcemap": false,
+            "outExtension": {
+              ".js": ".js"
+            }
+          }
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "import-tools:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "import-tools:build:development"
+        },
+        "production": {
+          "buildTarget": "import-tools:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
