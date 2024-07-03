@@ -3,13 +3,13 @@ import { DatabaseClientConfig, createDatabaseClient } from './client';
 import { config } from 'process';
 
 const dbMock = {
-  end: jest.fn()
+  end: jest.fn(() => ({})),
 }
 
 jest.mock('postgres', () => {
   return {
     __esModule: true,
-    default: jest.fn(() => ({}))
+    default: jest.fn(() => dbMock)
   }
 })
 
@@ -48,7 +48,8 @@ describe('client.ts', () => {
       const client = createDatabaseClient(config as DatabaseClientConfig)
       console.log(client)
       expect(client.db).toEqual(dbMock)
-      // expect(client.closeConnection.mock!).toEqual(dbMock.end.mock)
+      // @ts-expect-error - Testing if the function is a mock function
+      expect(client.closeConnection._isMockFunction).toEqual(true)
     })
   })
 })

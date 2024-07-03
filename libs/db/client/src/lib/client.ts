@@ -16,9 +16,6 @@ export function createDatabaseClient(config: DatabaseClientConfig) {
     throw new Error('Missing required environment variables')
   }
 
-  console.log(postgres)
-  console.log(drizzle)
-
   const pgClient = postgres({
     user: POSTGRES_USER,
     database: POSTGRES_DB,
