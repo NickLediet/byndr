@@ -26,7 +26,6 @@ program.command('debug')
     
     const value = await client.GET('byndr_test_key')
     console.log('DEBUG: Value:', value)
-
     client.disconnect()
   })
 
