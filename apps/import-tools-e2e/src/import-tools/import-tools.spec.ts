@@ -1,21 +1,38 @@
-import { execSync } from 'child_process';
 import { join } from 'path';
+import { exec } from  'promisify-child-process'
 
+
+class ImportToolsRunner {
+  private cliPath: string
+
+  constructor(cliPath: string) {
+    this.cliPath = cliPath
+  }
+
+  async executeCommand(command: string) {
+    return exec(`node ${this.cliPath} ${command}`)
+  }
+}
+
+
+// console.log()
 describe('CLI tests', () => {
-  it('should successfully run the CLI with no errors', () => {
+  let importToolsRunner: ImportToolsRunner|null = null
+
+  beforeEach(() => {
+    // when running `nx test @byndr/import-tools-e2e` the process.cwd() is the THIS DIRECTORY
+    const cliPath = join(process.cwd(), '../../dist/apps/import-tools')
+    importToolsRunner = new ImportToolsRunner(cliPath)
+  })
+
+  it('should successfully run the CLI with no errors', async () => {
     try {
-      const cliPath = join(process.cwd(), 'dist/apps/import-tools');
-      const output = execSync(`node ${cliPath} --help`).toString();
-      expect(output).toContain('Import tools for Byndr');
+      const { stdout } = await importToolsRunner.executeCommand('--help')
+      expect(stdout).toContain('Import tools for Byndr');
     } catch (error) {
       console.error(error);
       expect(true).toBe(false);
     }
-  // it('should print a message', () => {
-  //   const cliPath = join(process.cwd(), 'dist/apps/import-tools');
-
-  //   const output = execSync(`node ${cliPath}`).toString();
-
-  //   expect(output).toMatch(/Hello World/);
   });
+
 });

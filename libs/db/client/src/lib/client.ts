@@ -1,18 +1,18 @@
-import * as dotenv from 'dotenv'
 import postgres from 'postgres'
 import { drizzle } from 'drizzle-orm/postgres-js'
 
-dotenv.config()
-export function createDatabaseClient() {
-  const { 
-    POSTGRES_USER,
-    POSTGRES_PASSWORD, 
-    POSTGRES_DB,
-    POSTGRES_HOST,
-    POSTGRES_PORT
-  } = process.env
+export type DatabaseClientConfig = {
+  POSTGRES_USER: string,
+  POSTGRES_PASSWORD: string,
+  POSTGRES_DB: string,
+  POSTGRES_HOST: string,
+  POSTGRES_PORT: string
+}
 
-  if (!POSTGRES_USER || !POSTGRES_PASSWORD || !POSTGRES_DB || !POSTGRES_HOST || !POSTGRES_PORT) {
+export function createDatabaseClient(config: DatabaseClientConfig) {
+  const { POSTGRES_USER, POSTGRES_PASSWORD, POSTGRES_DB, POSTGRES_HOST, POSTGRES_PORT } = config
+
+   if (!POSTGRES_USER || !POSTGRES_PASSWORD || !POSTGRES_DB || !POSTGRES_HOST || !POSTGRES_PORT) {
     throw new Error('Missing required environment variables')
   }
 
