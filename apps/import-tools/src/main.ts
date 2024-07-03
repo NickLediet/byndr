@@ -5,6 +5,7 @@ import { readFile } from 'fs/promises'
 import { camelCase, isArray } from 'lodash'
 import { sql } from 'drizzle-orm'
 import { createClient } from 'redis'
+import { DatabaseClientConfig } from '@byndr/db-client'
 import 'dotenv/config'
 const program = new Command()
 
@@ -36,7 +37,7 @@ program.command('list:create')
   .option('-i, --include-in-collection', 'Include the list in the user\'s collection')
   .action(async (options) => {
     console.log('Creating list...')
-    const { db, closeConnection } = createDatabaseClient()
+    const { db, closeConnection } = createDatabaseClient(process.env as DatabaseClientConfig)
 
     await db.insert(lists).values({
       name: options.name,
@@ -83,7 +84,7 @@ program.command('list:import')
         return acc
       }, { keys: [], newEntries: [] } as ImportData)
 
-    const { db, closeConnection } = await createDatabaseClient()
+    const { db, closeConnection } = await createDatabaseClient(process.env as DatabaseClientConfig)
     // Fetch the requested list
     const listResult = await db.select().from(lists).where(
       sql`${lists.slug} = ${options.slug}`
