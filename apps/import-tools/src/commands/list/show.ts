@@ -1,5 +1,5 @@
 import type { Command } from "commander";
-import { createDatabaseClient } from '@byndr/db-client'
+import { DatabaseClientConfig, createDatabaseClient } from '@byndr/db-client'
 import { lists } from '@byndr/db-schema'
 import { sql } from 'drizzle-orm'
 
@@ -15,7 +15,7 @@ export async function registerCommand(program: Command) {
 
 export async function action(options: ListShowOptions) {
     console.log('Showing list...')
-    const { db, closeConnection } = createDatabaseClient()
+    const { db, closeConnection } = createDatabaseClient(process.env as DatabaseClientConfig)
 
     const query = sql`SELECT * FROM ${lists}`
     if (options.slug) {

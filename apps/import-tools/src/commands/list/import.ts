@@ -24,17 +24,16 @@ export async function registerCommand(program: Command) {
     .action(action)
 }
 
+function rowToEntry(keys: string[], row: string) {
+    const values = row.split(/(?<!\s),(?!\s)/)
+    return keys.reduce((acc, key, i) => {
+        const currentValue = values[i]
+        acc[key] = /^\d+$/.test(currentValue) ? parseInt(currentValue) : currentValue
+        return acc
+    }, {} as NewEntry)
+}
 export async function action(sources: string[], options: ListImportOptions) {
-    console.log(sources)
-    console.log(process.cwd())
-    const rowToEntry = (keys: string[], row: string) => {
-        const values = row.split(/(?<!\s),(?!\s)/)
-        return keys.reduce((acc, key, i) => {
-          const currentValue = values[i]
-          acc[key] = /^\d+$/.test(currentValue) ? parseInt(currentValue) : currentValue
-          return acc
-        }, {} as NewEntry)
-      }
+
   
     const { newEntries } = (await Promise.all(
         sources.map(async (source) => (await readFile(source)).toString('utf-8'))
@@ -42,11 +41,11 @@ export async function action(sources: string[], options: ListImportOptions) {
     .reduce((acc: ImportData, fileData: string, i: number) => {
         const [header, ...rows] = fileData.trim().split('\n').map(row => row.trim())
         if (i === 0) {
-        acc.keys = header.split(',').map(key => camelCase(key.trim()))
+            acc.keys = header.split(',').map(key => camelCase(key.trim()))
         }
         acc.newEntries = [
-        ...acc.newEntries,
-        ...rows.map(row => rowToEntry(acc.keys, row))
+            ...acc.newEntries,
+            ...rows.map(row => rowToEntry(acc.keys, row))
         ]
 
         return acc
@@ -55,35 +54,29 @@ export async function action(sources: string[], options: ListImportOptions) {
     const { db, closeConnection } = await createDatabaseClient(process.env as DatabaseClientConfig)
     // Fetch the requested list
     const listResult = await db.select().from(lists).where(
-    sql`${lists.slug} = ${options.slug}`
+        sql`${lists.slug} = ${options.slug}`
     )
     const list = isArray(listResult) ? listResult[0] : listResult
-    newEntries.forEach(async entry => {
+
+    for (const entry of newEntries) {
+        console.log('importing entry:', JSON.stringify(entry))
         if(options.dryRun) {
-            return
+            continue
         }
         // Insert the entry into the database
         try {
-            console.log("starting transation")
-            await db.transaction(async (tx) => {
-                console.log('importing entry:', JSON.stringify(entry))
-                if (options.dryRun) return
-
-                const result = await tx.insert(entries).values({
-                    listId: list.id,
-                    ...entry
-                } as NewEntry).returning()
-                console.log(result)
-            })
-
+            await db.insert(entries).values({
+                listId: list.id,
+                ...entry
+            } as NewEntry)
         } catch (e) {
             console.error('Error importing entry:', e)
             process.exit(1)
         }
-    })
+    }
 
     if(options.dryRun) {
-    console.log('Dry run complete')
+        console.log('Dry run complete')
     }
 
     closeConnection()
