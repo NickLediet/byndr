@@ -4,103 +4,88 @@ import { NewEntry, lists, entries } from '@byndr/db-schema'
 import { readFile } from 'fs/promises'
 import { camelCase, isArray } from 'lodash'
 import { sql } from 'drizzle-orm'
+import * as commands from './commands'
 
 const program = new Command()
-
 program
   .name('byndr')
   .description('Import tools for Byndr')
   .version('0.0.1')
 
-program.command('list:create')
-  .description('Create a new list in Byndr')
-  .requiredOption('-n, --name <name>', 'Name of the list')
-  .requiredOption('-s, --slug <slug>', 'Slug for the list to be used as an unique identifier')
-  .option('-i, --include-in-collection', 'Include the list in the user\'s collection')
-  .action(async (options) => {
-    console.log('Creating list...')
-    const { db, closeConnection } = createDatabaseClient()
+// Register command modules
+Object.values(commands).forEach((command) => command.registerCommand(program))
 
-    await db.insert(lists).values({
-      name: options.name,
-      slug: options.slug,
-      includeInCollection: options.includeInCollection || false
-    })
+// program.command('list:import')
+//   .description('Import data into Byndr')
+//   .arguments('<sources...>')
+//   .option('-d, --dry-run', 'Perform a dry-run')
+//   .requiredOption('--slug <slug>', 'Slug of the list to import into')
+//   .action(async (args, options) => {
+//     type ImportData = {
+//       keys: string[],
+//       newEntries: NewEntry[]
+//     }
 
-    closeConnection()
-  })
+//     const rowToEntry = (keys: string[], row: string) => {
+//       const values = row.split(/(?<!\s),(?!\s)/)
+//       return keys.reduce((acc, key, i) => {
+//         const currentValue = values[i]
+//         acc[key] = /^\d+$/.test(currentValue) ? parseInt(currentValue) : currentValue
+//         return acc
+//       }, {} as NewEntry)
+//     }
 
-program.command('list:import')
-  .description('Import data into Byndr')
-  .arguments('<sources...>')
-  .option('-d, --dry-run', 'Perform a dry-run')
-  .requiredOption('--slug <slug>', 'Slug of the list to import into')
-  .action(async (args, options) => {
-    type ImportData = {
-      keys: string[],
-      newEntries: NewEntry[]
-    }
+//     const { newEntries } = (await Promise.all(
+//         args.map(async (source) => (await readFile(source)).toString('utf-8'))
+//       ))
+//       .reduce((acc: ImportData, fileData: string, i: number) => {
+//         const [header, ...rows] = fileData.trim().split('\n').map(row => row.trim())
+//         if (i === 0) {
+//           acc.keys = header.split(',').map(key => camelCase(key.trim()))
+//         }
+//         acc.newEntries = [
+//           ...acc.newEntries,
+//           ...rows.map(row => rowToEntry(acc.keys, row))
+//         ]
 
-    const rowToEntry = (keys: string[], row: string) => {
-      const values = row.split(/(?<!\s),(?!\s)/)
-      return keys.reduce((acc, key, i) => {
-        const currentValue = values[i]
-        acc[key] = /^\d+$/.test(currentValue) ? parseInt(currentValue) : currentValue
-        return acc
-      }, {} as NewEntry)
-    }
+//         return acc
+//       }, { keys: [], newEntries: [] } as ImportData)
 
-    const { newEntries } = (await Promise.all(
-        args.map(async (source) => (await readFile(source)).toString('utf-8'))
-      ))
-      .reduce((acc: ImportData, fileData: string, i: number) => {
-        const [header, ...rows] = fileData.trim().split('\n').map(row => row.trim())
-        if (i === 0) {
-          acc.keys = header.split(',').map(key => camelCase(key.trim()))
-        }
-        acc.newEntries = [
-          ...acc.newEntries,
-          ...rows.map(row => rowToEntry(acc.keys, row))
-        ]
+//     const { db, closeConnection } = await createDatabaseClient()
+//     // Fetch the requested list
+//     const listResult = await db.select().from(lists).where(
+//       sql`${lists.slug} = ${options.slug}`
+//     )
+//     const list = isArray(listResult) ? listResult[0] : listResult
 
-        return acc
-      }, { keys: [], newEntries: [] } as ImportData)
+//     newEntries.forEach(async entry => {
+//       if(options.dryRun) {
+//         return
+//       }
+//       // Insert the entry into the database
+//       try {
+//         await db.transaction(async (tx) => {
+//           console.log('importing entry:', JSON.stringify(entry))
+//           if (options.dryRun) return
 
-    const { db, closeConnection } = await createDatabaseClient()
-    // Fetch the requested list
-    const listResult = await db.select().from(lists).where(
-      sql`${lists.slug} = ${options.slug}`
-    )
-    const list = isArray(listResult) ? listResult[0] : listResult
+//           await tx.insert(entries).values({
+//             listId: list.id,
+//             ...entry
+//           } as NewEntry).returning()
+//         })
 
-    newEntries.forEach(async entry => {
-      if(options.dryRun) {
-        return
-      }
-      // Insert the entry into the database
-      try {
-        await db.transaction(async (tx) => {
-          console.log('importing entry:', JSON.stringify(entry))
-          if (options.dryRun) return
+//       } catch (e) {
+//         console.error('Error importing entry:', e)
+//         process.exit(1)
+//       }
+//    })
 
-          await tx.insert(entries).values({
-            listId: list.id,
-            ...entry
-          } as NewEntry).returning()
-        })
+//    if(options.dryRun) {
+//      console.log('Dry run complete')
+//    }
 
-      } catch (e) {
-        console.error('Error importing entry:', e)
-        process.exit(1)
-      }
-   })
-
-   if(options.dryRun) {
-     console.log('Dry run complete')
-   }
-
-   closeConnection()
-   process.exit(0)
-  })
+//    closeConnection()
+//    process.exit(0)
+//   })
 
 program.parse()

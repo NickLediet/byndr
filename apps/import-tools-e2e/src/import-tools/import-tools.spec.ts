@@ -11,11 +11,5 @@ describe('CLI tests', () => {
       console.error(error);
       expect(true).toBe(false);
     }
-  // it('should print a message', () => {
-  //   const cliPath = join(process.cwd(), 'dist/apps/import-tools');
-
-  //   const output = execSync(`node ${cliPath}`).toString();
-
-  //   expect(output).toMatch(/Hello World/);
   });
 });
