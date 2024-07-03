@@ -1,6 +1,4 @@
-import { PostgresError } from 'postgres';
 import { DatabaseClientConfig, createDatabaseClient } from './client';
-import { config } from 'process';
 
 const dbMock = {
   end: jest.fn(() => ({})),
