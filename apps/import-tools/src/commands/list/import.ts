@@ -1,5 +1,5 @@
 import type { Command } from "commander";
-import { createDatabaseClient } from '@byndr/db-client'
+import { DatabaseClientConfig, createDatabaseClient } from '@byndr/db-client'
 import { lists, entries, NewEntry} from '@byndr/db-schema'
 import { readFile } from 'fs/promises'
 import { sql } from 'drizzle-orm'
@@ -52,7 +52,7 @@ export async function action(sources: string[], options: ListImportOptions) {
         return acc
     }, { keys: [], newEntries: [] } as ImportData)
 
-    const { db, closeConnection } = await createDatabaseClient()
+    const { db, closeConnection } = await createDatabaseClient(process.env as DatabaseClientConfig)
     // Fetch the requested list
     const listResult = await db.select().from(lists).where(
     sql`${lists.slug} = ${options.slug}`

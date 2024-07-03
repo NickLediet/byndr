@@ -1,5 +1,5 @@
 import type { Command } from "commander";
-import { createDatabaseClient } from '@byndr/db-client'
+import { DatabaseClientConfig, createDatabaseClient } from '@byndr/db-client'
 import { lists } from '@byndr/db-schema'
 
 export type ListCreateOptions = {
@@ -19,7 +19,7 @@ export async function registerCommand(program: Command) {
 
 export async function action(options: ListCreateOptions) {
   console.log('Creating list...')
-  const { db, closeConnection } = createDatabaseClient()
+  const { db, closeConnection } = createDatabaseClient(process.env as DatabaseClientConfig)
 
   await db.insert(lists).values({
     name: options.name,

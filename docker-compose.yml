@@ -1,9 +1,27 @@
 services:
   byndr_db:
     container_name: byndr_db
+    # TODOD: Update to fixed version
     image: postgres
     env_file: .env
     ports:
       - 5432:5432
     volumes:
-      - ./data:/var/lib/postgresql/data
+      - data:/var/lib/postgresql/data
+  # Inspired by:
+  # https://geshan.com.np/blog/2022/01/redis-docker/
+  byndr_cache:
+    container_name: byndr_cache
+    # TODOD: Update to fixed version
+    image: redis
+    command: redis-server --save 20 1 --requirepass ${REDIS_PASSWORD}
+    restart: always
+    ports:
+      - 6379:6379
+    volumes:
+      - cache:/data
+volumes:
+  data:
+    driver: local
+  cache:
+    driver: local
