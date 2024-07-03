@@ -9,6 +9,7 @@
     "dev:byndr": "nx start byndr",
     "dev:api": "nx serve api-byndr",
     "serve:byndr": "nx start byndr",
+    "serve:localhost": "docker-compose up --build --remove-orphans",
     "db:start": "docker-compose up -d byndr_db --build --remove-orphans",
     "db:logs": "docker-compose logs -f byndr_db",
     "db:migrate": "npm run dk -- migrate",
