@@ -1,0 +1,1 @@
+ALTER TABLE "entries" ALTER COLUMN "language" SET DATA TYPE varchar(100);

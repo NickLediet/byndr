@@ -1,0 +1,1 @@
+ALTER TABLE "entries" ALTER COLUMN "card_number" SET DATA TYPE varchar(20);
