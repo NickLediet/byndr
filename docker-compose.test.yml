@@ -4,8 +4,10 @@ services:
     extends:
       file: docker-compose.yml
       service: byndr_db
+    env_file:
+      - .env.test
     ports:
-      - ${POSTGRES_TEST_PORT}:5432
+      - ${POSTGRES_PORT}:5432
     volumes:
       - test_data:/var/lib/postgresql/data
   # byndr_import_tools_test_cache:

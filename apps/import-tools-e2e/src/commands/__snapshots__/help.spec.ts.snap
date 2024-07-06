@@ -10,6 +10,8 @@ Options:
   --e2e                               Run in end-to-end test mode (use test
                                       docker containers)
   -d, --dry-run                       Perform a dry-run
+  --env-file <envFile>                Path to the environment file for
+                                      overrides
   -h, --help                          display help for command
 
 Commands:
@@ -31,6 +33,8 @@ Options:
   --e2e                               Run in end-to-end test mode (use test
                                       docker containers)
   -d, --dry-run                       Perform a dry-run
+  --env-file <envFile>                Path to the environment file for
+                                      overrides
   -h, --help                          display help for command
 
 Commands:

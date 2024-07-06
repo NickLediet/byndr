@@ -3,13 +3,15 @@ import * as commands from '../commands'
 
 export type SharedOptions = {
     e2e: boolean,
-    dryRun: boolean
+    dryRun: boolean,
+    env: string
 }
 
 export function registerSharedOptions(program: Command): Command {
     program
         .option('--e2e', 'Run in end-to-end test mode (use test docker containers)')
         .option('-d, --dry-run', 'Perform a dry-run')
+        .option('--env <env>', 'Path to the environment file for overrides')
 
     return program
 }

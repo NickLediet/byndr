@@ -8,7 +8,9 @@ export class ImportToolsRunner {
   }
 
    async executeCommand(command: string) {
-    return exec(`node ${this.cliPath} ${command}`)
+    const { stdout } = await exec(`pwd`)
+    console.log(stdout)
+    return exec(`${this.cliPath} ${command} --env ../../.env.test`)
   }
 }
  

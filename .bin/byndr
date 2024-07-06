@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This script is used to start the byndr application
+node ./dist/apps/import-tools/main.js "$@"

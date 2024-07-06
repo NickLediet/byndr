@@ -19,7 +19,6 @@ export async function registerCommand(program: Command) {
     registerSharedOptions(program.command('list:import'))
         .description('Import data into Byndr')
         .arguments('<sources...>')
-        .option('-d, --dry-run', 'Perform a dry-run')
         .requiredOption('--slug <slug>', 'Slug of the list to import into')
         .action(action)
 }
@@ -33,8 +32,6 @@ function rowToEntry(keys: string[], row: string) {
     }, {} as NewEntry)
 }
 export async function action(sources: string[], options: ListImportOptions) {
-
-  
     const { newEntries } = (await Promise.all(
         sources.map(async (source) => (await readFile(source)).toString('utf-8'))
     ))
