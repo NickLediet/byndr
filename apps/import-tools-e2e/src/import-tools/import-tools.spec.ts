@@ -16,7 +16,7 @@ class ImportToolsRunner {
 
 
 // console.log()
-describe('CLI tests', () => {
+describe('byndr', () => {
   let importToolsRunner: ImportToolsRunner|null = null
 
   beforeEach(() => {
@@ -24,15 +24,18 @@ describe('CLI tests', () => {
     const cliPath = join(process.cwd(), '../../dist/apps/import-tools')
     importToolsRunner = new ImportToolsRunner(cliPath)
   })
-
-  it('should successfully run the CLI with no errors', async () => {
-    try {
-      const { stdout } = await importToolsRunner.executeCommand('--help')
-      expect(stdout).toContain('Import tools for Byndr');
-    } catch (error) {
-      console.error(error);
-      expect(true).toBe(false);
-    }
-  });
-
+  describe('`byndr --help` or `byndr help`', () => {
+    it('matches the help-text snapshot', async () => {
+      try {
+        const { stdout: flagStdout } = await importToolsRunner.executeCommand('--help')
+        const { stdout: commandStdout } = await importToolsRunner.executeCommand('help')
+        expect(flagStdout).toMatchSnapshot()
+        expect(commandStdout).toMatchSnapshot()
+        expect (flagStdout).toEqual(commandStdout)
+      } catch (error) {
+        console.error(error);
+        expect(true).toBe(false);
+      }
+    })
+  })
 });
