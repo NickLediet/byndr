@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`byndr \`byndr --help\` or \`byndr help\` matches the help-text snapshot 1`] = `
+exports[`\`byndr --help\` or \`byndr help\` matches the help-text snapshot 1`] = `
 "Usage: byndr [options] [command]
 
 Import tools for Byndr
@@ -21,7 +21,7 @@ Commands:
 "
 `;
 
-exports[`byndr \`byndr --help\` or \`byndr help\` matches the help-text snapshot 2`] = `
+exports[`\`byndr --help\` or \`byndr help\` matches the help-text snapshot 2`] = `
 "Usage: byndr [options] [command]
 
 Import tools for Byndr
