@@ -5,7 +5,7 @@
   "scripts": {
     "dk": "drizzle-kit --config ./libs/db/migrations/drizzle.config.ts",
     "byndr": "node ./dist/apps/import-tools/main.js",
-    "byndr:test": "nx build @byndr/import-tools && nx test @byndr/import-tools-e2e",
+    "byndr:test": "./tools/scripts/start-test-containers.sh && nx build @byndr/import-tools && nx test @byndr/import-tools-e2e && ./tools/scripts/kill-test-containers.sh",
     "dev": "npm run dev:byndr",
     "dev:byndr": "nx start byndr",
     "dev:api": "nx serve api-byndr",

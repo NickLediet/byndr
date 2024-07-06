@@ -4,10 +4,10 @@ import { lists, entries, NewEntry} from '@byndr/db-schema'
 import { readFile } from 'fs/promises'
 import { sql } from 'drizzle-orm'
 import { camelCase, isArray } from 'lodash'
+import { SharedOptions, registerSharedOptions } from "../../lib/core"
 
-export type ListImportOptions = {
+export type ListImportOptions = SharedOptions & {
     slug?: string
-    dryRun: boolean
 }
 
 export type ImportData = {
@@ -16,12 +16,12 @@ export type ImportData = {
 }
 
 export async function registerCommand(program: Command) {
-    program.command('list:import')
-    .description('Import data into Byndr')
-    .arguments('<sources...>')
-    .option('-d, --dry-run', 'Perform a dry-run')
-    .requiredOption('--slug <slug>', 'Slug of the list to import into')
-    .action(action)
+    registerSharedOptions(program.command('list:import'))
+        .description('Import data into Byndr')
+        .arguments('<sources...>')
+        .option('-d, --dry-run', 'Perform a dry-run')
+        .requiredOption('--slug <slug>', 'Slug of the list to import into')
+        .action(action)
 }
 
 function rowToEntry(keys: string[], row: string) {

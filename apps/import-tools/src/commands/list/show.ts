@@ -2,12 +2,14 @@ import type { Command } from "commander";
 import { DatabaseClientConfig, createDatabaseClient } from '@byndr/db-client'
 import { lists } from '@byndr/db-schema'
 import { sql } from 'drizzle-orm'
+import { SharedOptions, registerSharedOptions } from "../../lib/core";
 
-export type ListShowOptions = {
+export type ListShowOptions = SharedOptions & {
     slug?: string
 }
+
 export async function registerCommand(program: Command) {
-    program.command('list:show')
+    registerSharedOptions(program.command('list:show'))
         .description('Show all lists in Byndr')
         .option('-s, --slug <slug>', 'Slug of the list to show')
         .action(action)

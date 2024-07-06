@@ -1,5 +1,5 @@
 import { Command } from 'commander'
-import * as commands from './commands'
+import { bootstrap } from './lib/core'
 import { createClient } from 'redis'
 import 'dotenv/config'
 
@@ -9,8 +9,8 @@ program
   .description('Import tools for Byndr')
   .version('0.0.1')
 
+bootstrap(program)
 // Register command modules
-Object.values(commands).forEach((command) => command.registerCommand(program))
 program.command('debug')
   .description('Debugging command for testing, will be removed in production')
   .action(async () => {
@@ -25,5 +25,3 @@ program.command('debug')
     console.log('DEBUG: Value:', value)
     client.disconnect()
   })
-
-program.parse()

@@ -1,15 +1,16 @@
 import type { Command } from "commander";
 import { DatabaseClientConfig, createDatabaseClient } from '@byndr/db-client'
 import { lists } from '@byndr/db-schema'
+import { SharedOptions, registerSharedOptions } from "../../lib/core";
 
-export type ListCreateOptions = {
+export type ListCreateOptions = SharedOptions & {
     name: string
     slug: string
     includeInCollection: boolean
 }
 
 export async function registerCommand(program: Command) {
-   program.command('list:create')
+   registerSharedOptions(program.command('list:create'))
     .description('Create a new list in Byndr')
     .requiredOption('-n, --name <name>', 'Name of the list')
     .requiredOption('-s, --slug <slug>', 'Slug for the list to be used as an unique identifier')
