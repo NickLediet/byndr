@@ -8,18 +8,16 @@ export type SharedOptions = {
 }
 
 export function registerSharedOptions(program: Command): Command {
-    program
+    return program
         .option('--e2e', 'Run in end-to-end test mode (use test docker containers)')
         .option('-d, --dry-run', 'Perform a dry-run')
-        .option('--env <env>', 'Path to the environment file for overrides')
-
-    return program
+        .option('-e, --env <env>', 'Path to the environment file for overrides')
 }
 
 export async function bootstrap(program: Command) {
     // Register shared options
-    registerSharedOptions(program)
+    // const wrappedProgram = registerSharedOptions(program)
     // Register command modules
     Object.values(commands).forEach((command) => command?.registerCommand(program))
-    program.parse()
+    program.parseAsync(process.argv)
 }

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import type { Command } from "commander";
 import { DatabaseClientConfig, createDatabaseClient } from '@byndr/db-client'
 import { lists } from '@byndr/db-schema'
@@ -13,8 +14,8 @@ export type ListShowOptions = SharedOptions & {
 }
 
 export async function registerCommand(program: Command) {
-    registerSharedOptions(program.command('list:show'))
-        .description('Show all lists in Byndr')
+    registerSharedOptions(program.command('list:show')
+        .description('Show all lists in Byndr'))
         .option('-s, --slug <slug>', 'Slug of the list to show')
         .action(action)
 }
