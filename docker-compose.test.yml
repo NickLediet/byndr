@@ -1,0 +1,26 @@
+services:
+  byndr_import_tools_test_db:
+    container_name: byndr_import_tools_test_db
+    extends:
+      file: docker-compose.yml
+      service: byndr_db
+    env_file:
+      - .env.test
+    ports:
+      - ${POSTGRES_PORT}:5432
+    volumes:
+      - test_data:/var/lib/postgresql/data
+  # byndr_import_tools_test_cache:
+  #   container_name: byndr_import_tools_test_cache
+  #   extends:
+  #     file: docker-compose.yml
+  #     service: byndr_cache
+  #   ports:
+  #     - ${REDIS_TEST_PORT}:6379
+  #   volumes:
+  #     - test_cache:/data
+volumes:
+  test_data:
+    driver: local
+  test_cache:
+    driver: local

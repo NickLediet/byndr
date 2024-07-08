@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`\`byndr --help\` or \`byndr help\` matches the help-text snapshot 1`] = `
+"Usage: byndr [options] [command]
+
+Import tools for Byndr
+
+Options:
+  -V, --version                       output the version number
+  -h, --help                          display help for command
+
+Commands:
+  debug [options]                     Debugging command for testing, will be
+                                      removed in production
+  list:create [options]               Create a new list in Byndr
+  list:import [options] <sources...>  Import data into Byndr
+  list:show [options]                 Show all lists in Byndr
+  list:update [options] <sources...>  Update a list in Byndr
+  help [command]                      display help for command
+"
+`;
+
+exports[`\`byndr --help\` or \`byndr help\` matches the help-text snapshot 2`] = `
+"Usage: byndr [options] [command]
+
+Import tools for Byndr
+
+Options:
+  -V, --version                       output the version number
+  -h, --help                          display help for command
+
+Commands:
+  debug [options]                     Debugging command for testing, will be
+                                      removed in production
+  list:create [options]               Create a new list in Byndr
+  list:import [options] <sources...>  Import data into Byndr
+  list:show [options]                 Show all lists in Byndr
+  list:update [options] <sources...>  Update a list in Byndr
+  help [command]                      display help for command
+"
+`;
