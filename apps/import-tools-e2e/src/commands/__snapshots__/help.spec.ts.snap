@@ -7,14 +7,11 @@ Import tools for Byndr
 
 Options:
   -V, --version                       output the version number
-  --e2e                               Run in end-to-end test mode (use test
-                                      docker containers)
-  -d, --dry-run                       Perform a dry-run
-  --env-file <envFile>                Path to the environment file for
-                                      overrides
   -h, --help                          display help for command
 
 Commands:
+  debug [options]                     Debugging command for testing, will be
+                                      removed in production
   list:create [options]               Create a new list in Byndr
   list:import [options] <sources...>  Import data into Byndr
   list:show [options]                 Show all lists in Byndr
@@ -30,14 +27,11 @@ Import tools for Byndr
 
 Options:
   -V, --version                       output the version number
-  --e2e                               Run in end-to-end test mode (use test
-                                      docker containers)
-  -d, --dry-run                       Perform a dry-run
-  --env-file <envFile>                Path to the environment file for
-                                      overrides
   -h, --help                          display help for command
 
 Commands:
+  debug [options]                     Debugging command for testing, will be
+                                      removed in production
   list:create [options]               Create a new list in Byndr
   list:import [options] <sources...>  Import data into Byndr
   list:show [options]                 Show all lists in Byndr

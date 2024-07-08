@@ -1,13 +1,10 @@
 import { ImportToolsRunner } from '../utils';
-import { join } from 'path';
 
 describe('`byndr list:show`', () => {
     let importToolsRunner: ImportToolsRunner|null = null
 
     beforeEach(() => {
-        importToolsRunner = new ImportToolsRunner(
-            join(process.cwd(), '../../dist/apps/import-tools')
-        )
+        importToolsRunner = new ImportToolsRunner()
     })
 
     describe('when no lists exist', () => {

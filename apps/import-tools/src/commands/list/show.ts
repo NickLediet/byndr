@@ -21,17 +21,14 @@ export async function registerCommand(program: Command) {
 }
 
 export async function action(options: ListShowOptions) {
-    console.log('Showing list...')
-    console.log('Options:', options)
     const { $ } =  await import('zx')
-    const { stdout } = await $`pwd`
-    console.log(stdout)
     console.log(readFileSync(options.env, 'utf-8'))
     const config = options.env ? {
         ...process.env,
         ...parse(readFileSync(options.env))
     } : process.env 
-    console.log('Config:', config.POSTGRES_PORT)
+
+    console.log('Config:', config)
     const { db, closeConnection } = createDatabaseClient(config as DatabaseClientConfig)
 
     const query = sql`SELECT * FROM ${lists}`

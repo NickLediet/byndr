@@ -1,16 +1,15 @@
 import { exec } from  'promisify-child-process'
+import { join } from 'path';
 
 export class ImportToolsRunner {
   private cliPath: string
 
-  constructor(cliPath: string) {
-    this.cliPath = cliPath
+  constructor() {
+    this.cliPath = join(process.cwd(), '../../dist/apps/import-tools/main.js')
   }
 
    async executeCommand(command: string) {
-    const { stdout } = await exec(`pwd`)
-    console.log(stdout)
-    return exec(`${this.cliPath} ${command} --env ../../.env.test`)
+    return exec(`node ${this.cliPath} ${command} --env ../../.env.test`)
   }
 }
  

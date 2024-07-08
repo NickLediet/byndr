@@ -5,9 +5,7 @@ describe('`byndr --help` or `byndr help`', () => {
     let importToolsRunner: ImportToolsRunner|null = null
 
     beforeEach(() => {
-        importToolsRunner = new ImportToolsRunner(
-            join(process.cwd(), '../../dist/apps/import-tools')
-        )
+        importToolsRunner = new ImportToolsRunner()
     })
 
     it('matches the help-text snapshot', async () => {

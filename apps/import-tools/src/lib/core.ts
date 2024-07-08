@@ -15,8 +15,6 @@ export function registerSharedOptions(program: Command): Command {
 }
 
 export async function bootstrap(program: Command) {
-    // Register shared options
-    // const wrappedProgram = registerSharedOptions(program)
     // Register command modules
     Object.values(commands).forEach((command) => command?.registerCommand(program))
     program.parseAsync(process.argv)
