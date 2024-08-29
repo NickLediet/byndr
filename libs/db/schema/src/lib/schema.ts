@@ -30,8 +30,3 @@ export const entries = pgTable('entries', {
 })
 export type Entry = typeof entries.$inferSelect
 export type NewEntry = typeof entries.$inferInsert
-
-export const cards = pgTable('cards', {
-  id: serial('id').primaryKey(),
-  tcg_player_id: integer('tcg_player_id').notNull(),
-})
