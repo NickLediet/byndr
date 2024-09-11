@@ -5,8 +5,11 @@ import { faker } from '@faker-js/faker'
 describe('`byndr list:show`', () => {
     let importToolsRunner: ImportToolsRunner|null = null
 
-    beforeEach(() => {
+    beforeEach(async () => {
         importToolsRunner = new ImportToolsRunner()
+        await importToolsRunner.executeDatabaseQuery(async (db) => {
+            await db.delete(lists).execute()
+        })
     })
 
     describe('when no lists exist', () => {

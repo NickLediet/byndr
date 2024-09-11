@@ -25,7 +25,6 @@ export class ImportToolsRunner {
   }
 
    async executeCommand(command: string) {
-    console.log(await $`pwd`)
     return exec(`node ${this.cliPath} ${command} --env ../../.env.test`)
   }
 }
