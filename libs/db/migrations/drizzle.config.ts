@@ -3,7 +3,8 @@ import { DotenvParseOutput, parse } from 'dotenv'
 import { readFileSync } from 'fs'
 
 function getEnvFileName(): string {
-    switch(process.env.NODE_ENV) {
+    const nodeEnv = process.env.CI ? 'test' : process.env.NODE_ENV
+    switch(nodeEnv) {
         case 'test':
             return '.env.test'
         case 'production':
