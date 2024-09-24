@@ -23,7 +23,7 @@
     "dk": "drizzle-kit --config=./libs/db/migrations/drizzle.config.ts",
     "dk:test": "npm run drizzle-kit:test",
     "drizzle-kit": "npm run dk",
-    "drizzle-kit:test": "drizzle-kit --config ./libs/db/migrations/drizzle.config.e2e.ts",
+    "drizzle-kit:test": "drizzle-kit --config=./libs/db/migrations/drizzle.config.e2e.ts",
     "lint": "nx run-many -t lint",
     "serve:byndr": "nx start byndr",
     "serve:localhost": "docker compose up --build --remove-orphans",
