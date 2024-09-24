@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "nx run-many -t build",
     "byndr": "./.bin/byndr",
     "byndr:build": "nx build @byndr/import-tools",
     "byndr:test": "npm run containers:test:start && npm run db:migrate:test && nx build @byndr/import-tools && nx test @byndr/import-tools-e2e && npm run containers:test:kill",
@@ -12,10 +13,10 @@
     "db:logs": "docker-compose logs -f byndr_db",
     "db:migrate": "npm run dk -- migrate",
     "db:migrate:generate": "npm run dk -- generate",
+    "db:migrate:test": "npm run drizzle-kit:test -- migrate",
     "db:client": "npm run dk -- studio",
     "db:client:test": "npm run drizzle-kit:test -- studio",
     "db:client:kill": "kill -9 $(ps a | grep -E \"\\d\\s(npm run .+(client|studio)|node.+drizzle-kit)\" | awk '{ print $1 }')",
-    "db:migrate:test": "npm run drizzle-kit:test -- migrate",
     "dev": "npm run dev:byndr",
     "dev:byndr": "nx start byndr",
     "dev:api": "nx serve api-byndr",
@@ -25,7 +26,9 @@
     "drizzle-kit:test": "drizzle-kit --config ./libs/db/migrations/drizzle.config.e2e.ts",
     "lint": "nx run-many -t lint",
     "serve:byndr": "nx start byndr",
-    "serve:localhost": "docker-compose up --build --remove-orphans"
+    "serve:localhost": "docker-compose up --build --remove-orphans",
+    "test:e2e": "nx test @byndr/import-tools-e2e",
+    "test:unit": "nx run-many -t test"
   },
   "private": true,
   "dependencies": {
