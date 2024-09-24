@@ -28,7 +28,7 @@
     "serve:byndr": "nx start byndr",
     "serve:localhost": "docker-compose up --build --remove-orphans",
     "test:e2e": "nx test @byndr/import-tools-e2e",
-    "test:unit": "nx run-many -t test --exclude=@byndr/import-tools-e2e"
+    "test:unit": "nx run-many -t test --exclude=@byndr/import-tools-e2e,@byndr/source"
   },
   "private": true,
   "dependencies": {
