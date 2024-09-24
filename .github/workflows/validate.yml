@@ -34,6 +34,7 @@ jobs:
 
     - name: Setup E2E Database
       run: |
+        ls -la
         pwd
         npm run db:migrate:test
 
