@@ -36,7 +36,8 @@ jobs:
       run: |
         ls -la
         pwd
-        cat ./libs/db/migration/drizzle.config.e2e.ts
+        cat ./libs/db/migrations/drizzle.config.e2e.ts
+        ls ./libs/db/migrations
         npm run db:migrate:test
 
     - name: Run E2E Tets
