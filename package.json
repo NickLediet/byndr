@@ -9,7 +9,7 @@
     "byndr:test": "npm run containers:test:start && npm run db:migrate:test && nx build @byndr/import-tools && nx test @byndr/import-tools-e2e && npm run containers:test:kill",
     "containers:test:start": "./tools/scripts/start-test-containers.sh",
     "containers:test:kill": "./tools/scripts/kill-test-containers.sh",
-    "db:start": "docker compose up -d byndr_db --build --remove-orphans",
+    "db:start": "docker compose up -d byndr_db --build --remove-orphans --env-file .env",
     "db:logs": "docker compose logs -f byndr_db",
     "db:migrate": "npm run dk -- migrate",
     "db:migrate:generate": "npm run dk -- generate",
