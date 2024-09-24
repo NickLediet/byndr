@@ -33,7 +33,9 @@ jobs:
       run: npm run containers:test:start
 
     - name: Setup E2E Database
-      run: npm run db:migrate:test
+      run: |
+        pwd
+        npm run db:migrate:test
 
     - name: Run E2E Tets
       run: npm run test:e2e
