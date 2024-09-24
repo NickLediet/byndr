@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ci": "nx run-many --target=lint --all",
+    "ci": "nx run-many --target lint ",
     "byndr": "./.bin/byndr",
     "byndr:build": "nx build @byndr/import-tools",
     "byndr:test": "npm run containers:test:start && npm run db:migrate:test && nx build @byndr/import-tools && nx test @byndr/import-tools-e2e && npm run containers:test:kill",
