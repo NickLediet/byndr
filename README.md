@@ -42,6 +42,12 @@ npm run dk # usage: npm run dk -- migrate
 # prefix for Drizzle Kit via the e2e test DB
 npm run dk:test # usage: npm run dk:test -- migrate
 ```
+## Running Tests
+Most projects will expose a nx `test` target.  Some e2e projects like `import-tools` require additional environment setup:
+```sh
+# Running e2e commands for import-tools
+npm run byndr:test
+```
 
 ## Generate code
 
@@ -94,9 +100,3 @@ Run `nx graph` to show the graph of the workspace.
 It will show tasks that you can run with Nx.
 
 - [Learn more about Exploring the Project Graph](https://nx.dev/core-features/explore-graph)
-
-## Connect with us!
-
-- [Join the community](https://nx.dev/community)
-- [Subscribe to the Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
-- [Follow us on Twitter](https://twitter.com/nxdevtools)
