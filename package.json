@@ -6,6 +6,9 @@
     "containers:test:start": "./tools/scripts/start-test-containers.sh",
     "containers:test:kill": "./tools/scripts/kill-test-containers.sh",
     "dk": "drizzle-kit --config ./libs/db/migrations/drizzle.config.ts",
+    "drizzle-kit": "npm run dk",
+    "dk:test": "npm run drizzle-kit:test",
+    "drizzle-kit:test": "drizzle-kit --config ./libs/db/migrations/drizzle.config.e2e.ts",
     "byndr": "./.bin/byndr",
     "byndr:build": "nx build @byndr/import-tools",
     "byndr:test": "npm run containers:test:start && npm run db:migrate:test && nx build @byndr/import-tools && nx test @byndr/import-tools-e2e && npm run containers:test:kill",
@@ -19,8 +22,9 @@
     "db:migrate": "npm run dk -- migrate",
     "db:migrate:generate": "npm run dk -- generate",
     "db:client": "npm run dk -- studio",
+    "db:client:test": "npm run drizzle-kit:test -- studio",
     "db:client:kill": "kill -9 $(ps a | grep -E \"\\d\\s(npm run .+(client|studio)|node.+drizzle-kit)\" | awk '{ print $1 }')",
-    "db:migrate:test": "drizzle-kit --config ./libs/db/migrations/drizzle.config.e2e.ts migrate"
+    "db:migrate:test": "npm run drizzle-kit:test -- migrate"
   },
   "private": true,
   "dependencies": {
