@@ -10,7 +10,7 @@
         "containers:test:kill": "./tools/scripts/kill-test-containers.sh",
         "containers:test:start": "./tools/scripts/start-test-containers.sh",
         "db:client": "npm run dk -- studio",
-        "db:client:kill": "kill -9 $(ps a | grep -E \"\d\s(npm run .+(client|studio)|node.+drizzle-kit)\" | awk '{ print $1 }')",
+        "db:client:kill": "kill -9 $(ps a | grep -E \"\\d\\s(npm run .+(client|studio)|node.+drizzle-kit)\" | awk '{ print $1 }')",
         "db:client:test": "npm run drizzle-kit:test -- studio",
         "db:logs": "docker compose logs -f byndr_db",
         "db:migrate": "npm run dk -- migrate",
