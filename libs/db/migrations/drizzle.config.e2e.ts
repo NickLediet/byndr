@@ -5,7 +5,7 @@ import { parse } from 'dotenv'
 
 const contentsBuffer = readFileSync('.env.test')
 const config = parse(contentsBuffer)
-
+console.log('config', config)
 const {
     POSTGRES_USER,
     POSTGRES_PASSWORD,

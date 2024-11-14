@@ -13,6 +13,14 @@
         "tsConfig": "libs/db/schema/tsconfig.lib.json",
         "assets": ["libs/db/schema/*.md"]
       }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/libs/db/schema"],
+      "options": {
+        "jestConfig": "libs/db/schema/jest.config.ts",
+        "passWithNoTests": true
+      }
     }
   },
   "tags": []

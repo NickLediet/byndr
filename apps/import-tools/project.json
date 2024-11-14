@@ -50,6 +50,14 @@
           "buildTarget": "import-tools:build:production"
         }
       }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/apps/import-tools"],
+      "options": {
+        "jestConfig": "apps/import-tools/jest.config.ts",
+        "passWithNoTests": true
+      }
     }
   },
   "tags": []

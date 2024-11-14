@@ -1,13 +1,41 @@
 import { defineConfig } from 'drizzle-kit'
-import 'dotenv/config'
+import { DotenvParseOutput, parse } from 'dotenv'
+import { readFileSync } from 'fs'
 
-const { 
-    POSTGRES_USER, 
-    POSTGRES_PASSWORD, 
+function getEnvFileName(): string {
+    const nodeEnv = process.env.CI ? 'test' : process.env.NODE_ENV
+    switch(nodeEnv) {
+        case 'test':
+            return '.env.test'
+        case 'production':
+            return '.env.production'
+        default:
+            return '.env'
+    }
+}
+
+function readEnvFile(envFileName: string): DotenvParseOutput {
+    console.warn(`Reading environment variables from ./${envFileName} in the future this will be moved to a configurable root directory`)
+    const contentsBuffer = readFileSync(envFileName)
+    return parse(contentsBuffer)
+}
+
+const envFileName = getEnvFileName();
+const envConfig = readEnvFile(envFileName);
+
+console.log('envConfig', envConfig)
+console.log('envFileName', envFileName)
+
+const {
+    POSTGRES_USER,
+    POSTGRES_PASSWORD,
     POSTGRES_DB,
     POSTGRES_HOST,
     POSTGRES_PORT
-} = process.env
+} = {
+    ...process.env,
+    ...envConfig
+} as { [key: string]: string };
 
 if (!POSTGRES_USER || !POSTGRES_PASSWORD || !POSTGRES_DB || !POSTGRES_HOST || !POSTGRES_PORT) {
     throw new Error('Missing required environment variables')

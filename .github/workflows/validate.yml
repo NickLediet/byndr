@@ -1,0 +1,46 @@
+name: Validate
+on: [pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x, 22.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+      
+    - name: "Clean install"
+      run: npm ci
+
+    - name: "Lint Projects"
+      run: npm run lint
+
+    - name: "Build Projects"
+      run: npm run build
+
+    - name: "Run Unit Tests"
+      run: npm run test:unit
+
+    - name: Setup E2E environment
+      run: npm run containers:test:start
+
+    - name: Setup E2E Database
+      run: |
+        ls -la
+        pwd
+        cat ./libs/db/migrations/drizzle.config.e2e.ts
+        ls ./libs/db/migrations
+        npm run db:migrate:test
+
+    - name: Run E2E Tets
+      run: npm run test:e2e
+    # - run: npm run build --if-present
+    # - run: npm test

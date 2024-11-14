@@ -1,0 +1,25 @@
+# .husky/pre-commit 
+
+# function sortNpmScripts {
+#     local packageJsonFile="$1"
+#     local lintedPackageJson
+#     if [ -z "${packageJsonFile}" ]; then
+#         echo "No package.json path provided"
+#         exit 1
+#     fi
+
+#     lintedPackageJson=$(jq --indent 4 '.scripts = (.scripts | to_entries | sort_by(.key) | from_entries)' "${packageJsonFile}")
+#     echo "${lintedPackageJson}" > "${packageJsonFile}"
+#     # Stage new diff for the commit
+#     git add "${packageJsonFile}"
+# }
+
+# stagedFiles=$(git diff --cached --name-only)
+# packageJsonMatches=$(echo "${stagedFiles}" | grep -c 'package.json')
+
+# if [ "${packageJsonMatches}" == 1 ]; then
+#     sortNpmScripts "package.json"
+#     # exit 0
+# fi
+
+# exit 1
