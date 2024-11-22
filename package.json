@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "byndr:serve:local": "./tools/scripts/byndr-serve-local.sh",
     "build": "nx run-many -t build",
     "byndr": "./.bin/byndr",
     "byndr:build": "nx build @byndr/import-tools",
