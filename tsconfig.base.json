@@ -19,7 +19,8 @@
       "@byndr/db-client": ["libs/db/client/src/index.ts"],
       "@byndr/db-migrations": ["libs/db/migrations/src/index.ts"],
       "@byndr/db-schema": ["libs/db/schema/src/index.ts"],
-      "@byndr/graphql": ["libs/graphql/src/index.ts"]
+      "@byndr/graphql": ["libs/graphql/src/index.ts"],
+      "@byndr/graphql-client": ["libs/graphql/client/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

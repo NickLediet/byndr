@@ -1,6 +1,21 @@
 import styles from './page.module.scss';
+import { createGraphqlClient, gql } from '@byndr/graphql-client';
+const client = createGraphqlClient();
 
 export default async function Index() {
+  const { data } = await client.query({
+    variables: { id: '1' },
+    query: gql`
+      query GetUser($id: ID!) {
+        user(id: $id) {
+          id
+          name
+          # email
+        }
+      }
+    `
+  })
+  console.log(data)
   /*
    * Replace the elements below with your own.
    *
@@ -12,7 +27,7 @@ export default async function Index() {
         <div className="container">
           <div id="welcome">
             <h1>
-              <span> Hello there, </span>
+              <span> Hello there, { data?.user.name}</span>
               Welcome byndr 👋
             </h1>
           </div>
