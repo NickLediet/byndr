@@ -8,9 +8,14 @@
 /* tslint:disable */
 /* eslint-disable */
 
-export interface IQuery {
-    __typename?: 'IQuery';
-    user(id?: Nullable<string>): Nullable<User> | Promise<Nullable<User>>;
+export interface CreateUserInput {
+    name: string;
+    email: EmailAddress;
+}
+
+export interface UpdateUserInput {
+    name?: Nullable<string>;
+    email?: Nullable<EmailAddress>;
 }
 
 export interface User {
@@ -18,6 +23,19 @@ export interface User {
     id: string;
     name: string;
     email: EmailAddress;
+}
+
+export interface IQuery {
+    __typename?: 'IQuery';
+    users(): Nullable<User>[] | Promise<Nullable<User>[]>;
+    user(id: string): Nullable<User> | Promise<Nullable<User>>;
+}
+
+export interface IMutation {
+    __typename?: 'IMutation';
+    createUser(createUserInput: CreateUserInput): User | Promise<User>;
+    updateUser(updateUserInput: UpdateUserInput): User | Promise<User>;
+    removeUser(id: number): Nullable<User> | Promise<Nullable<User>>;
 }
 
 export type EmailAddress = string;

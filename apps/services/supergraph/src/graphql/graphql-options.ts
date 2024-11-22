@@ -10,15 +10,17 @@ export class GraphQLOptions implements GqlOptionsFactory {
         return {
             playground: process.env.NODE_ENV !== 'production',
             debug: process.env.NODE_ENV !== 'production',
-            typePaths: ['./**/*.graphqls'],
+            typePaths: ['./**/*.graphql'],
             definitions: {
                 path: join(process.cwd(), 'libs/graphql/src/generated/graphql.ts'),
                 emitTypenameField: true,
                 outputAs: 'interface',
                 customScalarTypeMapping: {
-                    EmailAddress: 'string'
+                    EmailAddress: "string"
                 }
             },
+            // Note when adding a scalar from `graphql-scalars` 
+            // you need to specify the "definitions.customScalarTypeMapping" property
             typeDefs:[
                 EmailAddressTypeDefinition
             ],
