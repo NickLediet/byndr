@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { GraphQLModule } from '@nestjs/graphql';
-import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
+import { ApolloDriverConfig, ApolloFederationDriver } from '@nestjs/apollo';
 import { EmailAddressTypeDefinition, EmailAddressResolver } from "graphql-scalars";
 import { createGraphQLOptionsFactory } from '@byndr/graphql-nest';
 import { join } from 'node:path';
@@ -8,13 +8,13 @@ import { UserModule } from '../user/user.module';
 @Module({
   imports: [
     GraphQLModule.forRootAsync<ApolloDriverConfig>({
-      driver: ApolloDriver,
+      driver: ApolloFederationDriver,
       useFactory: createGraphQLOptionsFactory({
-        nodeEnv: process.env.NODE_ENV,
+        env: process.env.NODE_ENV,
         apolloDriverConfig: {
           typePaths: ['./**/*.graphql'],
           definitions: {
-            path: join(process.cwd(), 'libs/graphql/src/generated/graphql.ts'),
+            path: join(process.cwd(), 'apps/services/supergraph/src/graphql.schema.ts'),
             customScalarTypeMapping: {
                 EmailAddress: "string"
             }

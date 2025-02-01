@@ -1,0 +1,10 @@
+
+type Card @key(fields: "id") {
+    # The scyfall id of the card
+    ID: ID!
+    name: String
+}
+
+type Query {
+    card(id: ID!): Card
+}

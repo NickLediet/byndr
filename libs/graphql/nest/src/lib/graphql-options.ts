@@ -2,15 +2,15 @@ import { ApolloDriverConfig } from "@nestjs/apollo";
 import { merge } from "lodash"
 
 type NestGraphQLOptions = {
-    nodeEnv?: string,
+    env?: string,
     apolloDriverConfig?: ApolloDriverConfig
 };
 
 export function createGraphQLOptionsFactory(options: NestGraphQLOptions): () => ApolloDriverConfig {
     return () => merge(
         {
-            playground: options.nodeEnv !== 'production',
-            debug: options.nodeEnv !== 'production',
+            playground: options.env !== 'production',
+            debug: options.env !== 'production',
             typePaths: ['./**/*.graphql'],
             definitions: {
                 emitTypenameField: true,

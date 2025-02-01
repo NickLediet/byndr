@@ -1,0 +1,24 @@
+{
+  "name": "service-auth",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/services/auth/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "service-auth:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "service-auth:build:development"
+        },
+        "production": {
+          "buildTarget": "service-auth:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
