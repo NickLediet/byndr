@@ -1,0 +1,24 @@
+{
+  "name": "service-cards",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/services/cards/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "service-cards:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "service-cards:build:development"
+        },
+        "production": {
+          "buildTarget": "service-cards:build:production"
+        }
+      }
+    }
+  },
+  "tags": []
+}
