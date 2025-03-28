@@ -1,0 +1,14 @@
+{
+  "name": "byndr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  }, 
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
